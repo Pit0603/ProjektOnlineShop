@@ -1,18 +1,22 @@
 @font-face {
     font-family: Ringbearer;
-    src: url(RINGM___.TTF);
+    src: url(Fonts/RINGM___.TTF);
 }
 header{
     background-color: black;
-    font-family: Ringbearer;
+    font-family: Ringbearer, Arial;
+    font-size: 50px;
+    font-style:normal;
+    font-weight: 100;
 }
 @font-face {
     font-family: Martel;
-    src: url(Martel-Regular.ttf);
+    src: url(Fonts/Martel-Regular.ttf);
 }
 body{
     background-color: black;
-    font-family: Martel;
+    font-family: Martel, Arial;
+    font-size: 1em;
 }
 footer{
     background-color: black;
@@ -32,13 +36,29 @@ ol{
 }
 
 hr{
-    color: gold;
+    border-color: gold;
 }
 
 h1{
-    color: gold;
+    color: #ffeeb3;
+    text-decoration: none;
+    text-transform: ;
+    font-size: 30px;
+    text-shadow: 0 0 10px orange;
+}
+
+#h1header{
+    color: #ffeeb3;
+    text-decoration: none;
+    text-transform: ;
+    font-size: 50px;
+    text-shadow: 0 0 10px orange;
 }
 
 h2{
-    color: gold;
+    color: #ffeeb3;
+    text-decoration: none;
+    text-transform: ;
+    font-size: 30px;
+    text-shadow: 0 0 10px orange;
 }
