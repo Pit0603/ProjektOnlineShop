@@ -9,34 +9,83 @@ header{
     font-style:normal;
     font-weight: 100;
 }
+
+.box{
+
+}
+
+#boxheader{
+margin-left: 100px;
+}
+
 @font-face {
     font-family: Martel;
     src: url(Fonts/Martel-Regular.ttf);
 }
 body{
-    background-color: black;
+    background-color:black;
     font-family: Martel, Arial;
     font-size: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 footer{
     background-color: black;
 }
 
 p{
-    color: gold;
+    color: #aaa;
+}
+
+div{
+    color: #aaa;
+}
+
+#divbody{
+    margin-left: 200px;
+}
+
+#divheader{
+    margin:0px
+}
+
+#boxFireDragon{
+    color:red
+}
+
+#boxfooter{
+    margin: auto;
 }
 
 li{
-    list-style-type: none;
-    color: gold;
+    color:#ffeeb3;
 }
 
 ol{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+ul{
     color: gold;
 }
 
+#ulfooter{
+    color: #ffeeb3;
+    text-align: center;
+    list-style-type: none;
+    padding: 0%;
+}
+
 hr{
-    border-color: gold;
+    border-color: #ffeeb3;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#hrtop{
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 h1{
@@ -61,4 +110,16 @@ h2{
     text-transform: ;
     font-size: 30px;
     text-shadow: 0 0 10px orange;
+}
+
+#h2footer{
+    text-align: center;
+}
+
+b{
+    color: #ffeeb3;
+}
+
+#headerlink{
+    text-decoration: none;
 }
