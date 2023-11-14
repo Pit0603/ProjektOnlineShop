@@ -11,11 +11,12 @@ header{
 }
 
 .box{
-
+background-color:;
 }
 
 #boxheader{
-margin-left: 100px;
+margin-left: %;
+position:;
 }
 
 @font-face {
@@ -42,7 +43,9 @@ div{
 }
 
 #divbody{
-    margin-left: 200px;
+    margin-left: 10%;
+    position:;
+    float:;
 }
 
 #divheader{
@@ -104,6 +107,11 @@ h1{
     text-shadow: 0 0 10px orange;
 }
 
+#headertest{
+    margin-left: 5%;
+    background-color: ;
+}
+
 h2{
     color: #ffeeb3;
     text-decoration: none;
@@ -122,4 +130,20 @@ b{
 
 #headerlink{
     text-decoration: none;
+}
+
+a{
+    color: #ffeeb3;
+}
+
+a:visited{
+    color: #aaa;
+}
+
+a:hover{
+    color: tomato;
+}
+
+a:active{
+    color: red;
 }
