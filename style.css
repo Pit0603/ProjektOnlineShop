@@ -10,13 +10,22 @@ header{
     font-weight: 100;
 }
 
-.box{
-background-color:;
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-#boxheader{
-margin-left: %;
-position:;
+.box{
+    align-self: center;
+}
+
+#boxheaderEmpirium{
+margin-left: 5%;
+}
+
+#boxheaderAnmelden{
+    margin-right: 5%;
 }
 
 @font-face {
@@ -129,6 +138,7 @@ b{
 }
 
 #headerlink{
+    text-align: center;
     text-decoration: none;
 }
 
