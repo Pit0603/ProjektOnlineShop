@@ -20,7 +20,7 @@ header{
     align-self: center;
 }
 
-#boxheaderEmpirium{
+#boxheaderEmporium{
 margin-left: 5%;
 }
 
@@ -53,8 +53,6 @@ div{
 
 #divbody{
     margin-left: 10%;
-    position:;
-    float:;
 }
 
 #divheader{
@@ -103,7 +101,6 @@ hr{
 h1{
     color: #ffeeb3;
     text-decoration: none;
-    text-transform: ;
     font-size: 30px;
     text-shadow: 0 0 10px orange;
 }
@@ -111,20 +108,17 @@ h1{
 #h1header{
     color: #ffeeb3;
     text-decoration: none;
-    text-transform: ;
     font-size: 50px;
     text-shadow: 0 0 10px orange;
 }
 
 #headertest{
     margin-left: 5%;
-    background-color: ;
 }
 
 h2{
     color: #ffeeb3;
     text-decoration: none;
-    text-transform: ;
     font-size: 30px;
     text-shadow: 0 0 10px orange;
 }
