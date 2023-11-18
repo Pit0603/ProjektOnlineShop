@@ -67,6 +67,11 @@ div{
     margin: auto;
 }
 
+#textfooter{
+    text-align: center;
+    color: #ffeeb3;
+}
+
 li{
     color:#ffeeb3;
 }
