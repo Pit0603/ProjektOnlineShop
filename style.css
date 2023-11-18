@@ -20,6 +20,10 @@ header{
     align-self: center;
 }
 
+.login{
+    margin-left: 10%;
+}
+
 #boxheaderEmporium{
 margin-left: 5%;
 }
@@ -38,9 +42,11 @@ body{
     font-size: 1em;
     margin-left: 0px;
     margin-right: 0px;
+    text-decoration: none;
 }
 footer{
     background-color: black;
+    text-decoration: none;
 }
 
 p{
@@ -74,6 +80,7 @@ div{
 
 li{
     color:#ffeeb3;
+    text-decoration: none;
 }
 
 ol{
@@ -83,6 +90,8 @@ ol{
 
 ul{
     color: gold;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 #ulfooter{
@@ -90,6 +99,10 @@ ul{
     text-align: center;
     list-style-type: none;
     padding: 0%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
 }
 
 hr{
@@ -143,6 +156,7 @@ b{
 
 a{
     color: #ffeeb3;
+    text-decoration: none;
 }
 
 a:visited{
