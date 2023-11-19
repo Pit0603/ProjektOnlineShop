@@ -10,11 +10,23 @@ header{
     font-weight: 100;
 }
 
-.headercontainer{
+.navheadercontainer{
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: baseline;
+}
+
+.navheadercontainer ul{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navheadercontainer li{
+    float: left;
+    display: flex;
+    justify-content: space-between;
 }
 
 .login{
@@ -63,6 +75,9 @@ body{
 
 .bodycontainer{
     margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
 }
 
 #boxh1Startseite{
