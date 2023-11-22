@@ -4,23 +4,33 @@
 }
 
 .navheadercontainer{
+    position: fixed;
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: baseline;
+    z-index: 1;
 }
 
 .navheadercontainer ul{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    z-index: 1;
 }
+#video-background {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+  }
 
 .mainBox{
+    position: relative;
     border-style: ridge;
     border-color: grey;
     border-width: 5px;
     margin-right: 10%;
+    z-index: 1;
 }
 
 .mainBoxChild{
@@ -81,7 +91,9 @@ body{
 }
 
 #boxh1Startseite{
+    position: relative;
     margin-left: 10%;
+    z-index: 1;
 }
 
 #boxBilder{
@@ -148,8 +160,10 @@ hr{
 }
 
 #hrtop{
+    position: fixed;
     margin-left: 0px;
     padding-left: 0px;
+    z-index: 1;
 }
 
 h1{
@@ -182,6 +196,7 @@ h2{
 
 #h2footer{
     text-align: center;
+    z-index: -1;
 }
 
 b{
