@@ -23,18 +23,16 @@
         </nav>
 
         <hr id="hrtop">
+        <video id="video-background" autoplay muted loop>
+            <source src="Video/Background.mp4" type="video/mp4">
+            <!-- Füge hier weitere Source-Tags hinzu, um unterschiedliche Videoformate zu unterstützen -->
+            Dein Browser unterstützt das Video-Tag nicht.
+        </video>
 
-        <div class="bodycontainerStartseite">
-            
-        <h1 id="boxh1Startseite">Startseite</h1>
-
-            <video id="video-background" style="z-index: 0;" autoplay muted loop>
-                <source src="Video/Background.mp4" type="video/mp4">
-                <!-- Füge hier weitere Source-Tags hinzu, um unterschiedliche Videoformate zu unterstützen -->
-                Dein Browser unterstützt das Video-Tag nicht.
-            </video>
+        <div class="bodycontainerStartseite" style="z-index: 1;">
+            <h1 id="boxh1Startseite">Startseite</h1>
         
-        <main id="boxBilder">
+            <main id="boxBilder">
             <div class="mainBox">
                 <div class="mainBoxChild">
                     <a href="FireDragon.html"
@@ -91,13 +89,11 @@
                     </div>
                 </div>
             </div>
-            <br>
-        
+        </div>
     </main>
         
     </div>
-    <div style="z-index: 1;">
-        <footer>
+        <footer style="z-index: 1;">
             <hr>
             <h2 id="h2footer">Rechtliches</h2>
             <ul id="ulfooter">
@@ -111,6 +107,5 @@
                 <small> &copy; 2023 All Rights Reserved </small>
                 </p>
         </footer>
-    </div>
     </body>
 </html>
