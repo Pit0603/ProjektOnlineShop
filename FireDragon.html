@@ -9,39 +9,38 @@
     </head>
     
     <body>
-        <div class="container">
-            <div class="box" id="boxheaderEmporium">
-                <a id="headerlink" href="index.html" target="_self" title="Hier kommen Sie zur Startseite" >
-                    <h1 id="h1header">Dragon Egg Emporium</h1>
-                </a>
-            </div>
-            <div class="box" id="boxheaderAnmelden">
-                <a id="headerlink" href="login.html" title="Hier können Sie sich Anmelden">
-                    <h1>Anmelden</h1>
-                </a>
-            </div>
-        </div>
+        <nav class="navheadercontainer">
+             <div class="box" id="boxheaderEmporium">
+                 <a id="headerlinkEmporium" href="index.html" target="_self" title="Hier kommen Sie zur Startseite" >
+                     <h1 id="h1headerEmporium">Dragon Egg Emporium</h1>
+                 </a>
+             </div>
+             <div class="box" id="boxheaderAnmelden">
+                 <a id="headerlinkAnmelden" href="login.html" title="Hier können Sie sich Anmelden">
+                     <h1 id="h1headerAnmelden">Anmelden</h1>
+                 </a>
+             </div>
+        </nav>
 
         <hr id="hrtop">
-        <div id="divbody">
-        <h1>Fire-Dragon-Egg</h1>
+    <div class="bodycontainerProdukt">
+        <h1 id="DragonEggName">Fire-Dragon-Egg</h1>
 
-        <img src="Bilder/FireDragonEgg.png"
+        <img id="FireDragonPNG"
+        src="Bilder/FireDragonEgg.png"
         alt="This is a picture of a Fire-Dragon Egg"
         title="This is a picture of a Fire-Dragon-Egg"
-        height="200"><!--Display Image of Image in Project with a height of 200px-->
+        height="500" width="500">
 
 
         <div class="box" id="boxFireDragon">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, doloremque harum error aperiam, voluptatibus nesciunt odit doloribus ipsa labore quidem soluta quam ea voluptatum dolorem in veniam quisquam perferendis commodi.</div>
 
-        
-        <p>Dragon Sound</p>
-        <audio controls autoplay>
+        <!--<audio autoplay>
             <source src="Audio/DragonSound.mp3" type="Audio/mp3">
-            <source src="Audio/DragonSound.wav" type="Audio/wav"> <!--Alternative Audiodatei-->
-        </audio>
+            <source src="Audio/DragonSound.wav" type="Audio/wav">
+        </audio>-->
         
-      </div>
+    </div>
         <footer>
             <hr>
             <h2 id="h2footer">Rechtliches</h2>
@@ -50,9 +49,11 @@
                 <li><a href="Datenschutz.html" target="_self" title="Hier kommen Sie zu unserer Datenschutzerklärung">Datenschutz</a><br></li>
                 <li><a href="Barrierefreiheit.html" target="_self" title="Hier kommen sie zur Erklärung zur Barrierefreiheit">Barrierefreiheit</a><br></li>
                 <li><a href="Kontakt.html" target="_self" title="Hier kommen Sie zu unseren Kontaktinformationen">Kontakt</a><br></li>
+                 </ul>
+                <p id="textfooter">
                 <br>Corvin, Mohamed, Pit <br>
                 <small> &copy; 2023 All Rights Reserved </small>
-            </ul>
+                </p>
         </footer>
     </body>
 </html>
