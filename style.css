@@ -3,22 +3,57 @@
     font-family: Ringbearer;
     src: url(Fonts/RINGM___.TTF);
 }
-header{
-    background-color: black;
-    font-family: Ringbearer, Arial;
-    font-size: 50px;
-    font-style:normal;
-    font-weight: 100;
-}
 
-.container{
+.navheadercontainer{
+    position: fixed;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: baseline;
+    z-index: 2;
+    background-color: black;
+    text-decoration: none;
 }
 
-.box{
-    align-self: center;
+.navheadercontainer ul{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    z-index: 1;
+}
+#video-background {
+    position: fixed;
+    margin-top: 10%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.mainBox{
+    position: relative;
+    border-style: ridge;
+    border-color: grey;
+    border-width: 5px;
+    margin-right: 10%;
+    z-index: 1;
+}
+
+.mainBoxChild{
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items:normal;
+}
+
+.login{
+    margin-left: 10%;
+}
+
+.register{
+    margin-left: 10%;
+}
+
+.resetpassword{
+    margin-left: 10%;
 }
 
 #boxheaderEmporium{
@@ -27,6 +62,7 @@ margin-left: 5%;
 
 #boxheaderAnmelden{
     margin-right: 5%;
+    text-align: center;
 }
 
 @font-face {
@@ -39,9 +75,40 @@ body{
     font-size: 1em;
     margin-left: 0px;
     margin-right: 0px;
+    text-decoration: none;
 }
+
+.bodycontainerStartseite{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.bodycontainerProdukt{
+    display: flex;
+    margin-left: 10%;
+}
+
+.bodycontainer{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+#boxh1Startseite{
+    position: relative;
+    margin-left: 10%;
+    z-index: 1;
+}
+
+#boxBilder{
+    margin-left: 10%;
+}
+
 footer{
     background-color: black;
+    text-decoration: none;
 }
 
 p{
@@ -52,14 +119,6 @@ div{
     color: #aaa;
 }
 
-#divbody{
-    margin-left: 10%;
-}
-
-#divheader{
-    margin:0px
-}
-
 #boxFireDragon{
     color:red
 }
@@ -68,8 +127,14 @@ div{
     margin: auto;
 }
 
+#textfooter{
+    text-align: center;
+    color: #ffeeb3;
+}
+
 li{
     color:#ffeeb3;
+    text-decoration: none;
 }
 
 ol{
@@ -79,6 +144,8 @@ ol{
 
 ul{
     color: gold;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 #ulfooter{
@@ -86,6 +153,10 @@ ul{
     text-align: center;
     list-style-type: none;
     padding: 0%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
 }
 
 hr{
@@ -95,8 +166,10 @@ hr{
 }
 
 #hrtop{
+    position: absolute;
     margin-left: 0px;
     padding-left: 0px;
+    z-index: 1;
 }
 
 h1{
@@ -106,15 +179,18 @@ h1{
     text-shadow: 0 0 10px orange;
 }
 
-#h1header{
+#h1headerEmporium{
     color: #ffeeb3;
     text-decoration: none;
     font-size: 50px;
     text-shadow: 0 0 10px orange;
 }
 
-#headertest{
-    margin-left: 5%;
+#h1headerAnmelden{
+    color: #ffeeb3;
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 0 0 10px orange;
 }
 
 h2{
@@ -126,19 +202,26 @@ h2{
 
 #h2footer{
     text-align: center;
+    z-index: -1;
 }
 
 b{
     color: #ffeeb3;
 }
 
-#headerlink{
+#headerlinkEmporium{
+    text-align: center;
+    text-decoration: none;
+}
+
+#headerlinkAnmelden{
     text-align: center;
     text-decoration: none;
 }
 
 a{
     color: #ffeeb3;
+    text-decoration: none;
 }
 
 a:visited{
@@ -151,4 +234,8 @@ a:hover{
 
 a:active{
     color: red;
+}
+
+audio{
+    display: none;
 }
