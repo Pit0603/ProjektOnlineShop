@@ -11,6 +11,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 html{
     font-family: Martel, Arial;
@@ -26,7 +27,7 @@ body{
     margin-left: 0px;
     margin-right: 0px;
     text-decoration: none;
-    margin: 0px;
+    margin: 0;
     padding: 0;
 }
 .headercontainer{
@@ -66,15 +67,44 @@ body{
     z-index: -1;
 }
 main{
-   
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+main b{
+    color: #ffeeb3;
+
+}
+main a{
+    color: #ffeeb3;
+    text-shadow: 0 0 10px orange;
+}
+main a:visited{
+    color: #ffeeb3
+}
+main a:hover{
+    color: tomato;
+}
+main a:active{
+    color: red;
 }
 main h1{
     color: #ffeeb3;
     text-shadow: 0 0 10px orange;
     font-size: 40px;
+    margin-bottom: 20px;
+}
+#mainStartseite{
+    margin: 0;
+}
+#h1Startseite{
+    color: #ffeeb3;
+    text-shadow: 0 0 10px orange;
+    font-size: 50px;
     margin-left: 5%;
+    margin-top: 5%;
     margin-bottom: 5%;
-
 }
 .containerProdukte{
     display: flex;
@@ -83,7 +113,6 @@ main h1{
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 10%;
-    margin-top: 5%;
 }
 .mainBox{
     position: relative;
@@ -134,8 +163,8 @@ main h1{
 }
 .footercontainer p{
     color: #ffeeb3;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .footercontainer a{
     color: #ffeeb3;
