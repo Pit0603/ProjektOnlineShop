@@ -12,10 +12,10 @@
     background-size: cover;
     background-position: center;
   }
-  .login{
+  .register{
     position: relative;
-    width: 400px;
-    height: 450px;
+    width: 450px;
+    height: 600px;
     background: transparent;
     border: none;
     border-radius: 20px;
@@ -29,7 +29,7 @@
     text-align: center;
     color: #fff;
   }
-  .login .input-box{
+  .register .input-box{
     position: relative;
     width: 100%;
     height: 50px;
@@ -51,35 +51,9 @@
   .input-box input::placeholder{
     color: #fff;
   }
-  .input-box i{
-    position: absolute;
-    right: 20px;
-    top: 30%;
-    transform: translate(-50%);
-    font-size: 20px;
-    color:#fff
-   }
- .remember-forgot{
-    display: flex;
-    justify-content: space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
-    color: #fff;
-  }
-  .remember-forgot label input{
-    accent-color: #fff;
-    margin-right: 3px;
-  
-  }
-  .remember-forgot a{
-    color: #fff;
-    text-decoration: none;
-  
-  }
-  .remember-forgot a:hover{
-    text-decoration: underline;
-  }
-  .login .btn{
+ 
+
+  .submit{
     width: 100%;
     height: 45px;
     background: #fff;
@@ -92,21 +66,7 @@
     color: #333;
     font-weight: 600;
   }
-  .register-link{
-    font-size: 14.5px;
-    text-align: center;
-    margin: 20px 0 15px;
-    color: #fff;
-  
-  }
-  .register-link p a{
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .register-link p a:hover{
-    text-decoration: underline;
-  }
+
   .background-clip{
     position: absolute;
     right: 0;
