@@ -72,7 +72,7 @@ body{
     z-index: -1;
 }
 main{
-    margin-top: 5%;
+    padding-top: 140px;
     margin-bottom: 5%;
     margin-left: 10%;
     margin-right: 5%;
@@ -102,6 +102,7 @@ main h1{
     margin-bottom: 20px;
 }
 #mainStartseite{
+    padding-top: 140px;
     margin: 0;
 }
 #h1Startseite{
@@ -114,7 +115,6 @@ main h1{
 }
 .containerProdukte{
     display: flex;
-    padding-top: 140px;
     flex-direction: column;
     z-index: 1;
     margin-left: 10%;
