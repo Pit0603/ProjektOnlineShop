@@ -72,11 +72,19 @@ body{
     width: 100%;
     z-index: -1;
 }
+video{
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 main{
     padding-top: 140px;
     margin-bottom: 5%;
     margin-left: 10%;
     margin-right: 5%;
+    z-index: 1;
 }
 main b{
     color: #ffeeb3;
@@ -102,6 +110,7 @@ main h1{
     font-size: 40px;
     margin-bottom: 20px;
     margin-top: 20px;
+    z-index: 2;
 }
 #mainStartseite{
     padding-top: 140px;
@@ -114,6 +123,7 @@ main h1{
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
+    z-index: 1;
 }
 .containerProdukte{
     display: flex;
@@ -151,17 +161,11 @@ main h1{
 }
 .FireDragonSeite img{
     float: left;
-    border-style: ridge;
-    border-color: grey;
-    border-width: 5px;
 }
 .FireDragonSeite h1{
-    margin-top: 0%;
+    margin: auto;
     width: 450px;
     text-align: center;
-    border-style: ridge;
-    border-color: grey;
-    border-width: 5px;
     color: #f5f5f5;
     text-shadow: 0px -2px 4px #fff,
                  0px -2px 10px #FF3,
@@ -169,17 +173,70 @@ main h1{
                  0px -20px 40px #C33;
 }
 .FireDragonSeite p{
-    border-style: ridge;
-    border-color: grey;
-    border-width: 5px;
+    margin: auto;
+    margin-left: 2%;
 }
-.FireDragonSeite button{
+#divbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+button{
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    position: relative;
+    font-size:2.5em;
+   }
+   .fantasy span, .fantasy:after, .double:after {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+   }
+   .fantasy:after, .double:after {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+   }
+   .fantasy {
+    background-color: #600;
+    border-width: 0.15em;
+    border-style: outset outset outset inset;
+    border-color: #FB2;/*#FB2*/
+    border-radius: 2px;
+    box-shadow: 0px 0px 0.09375em #000;
+   }
+   .fantasy:after {
+    box-shadow: 0px 0px 0.25em 0.25em rgba(0,0,0,0.5) inset;
+   }
+   .double {
+    position: relative;
+    border: 0.2em double #FB2;
+   }
+   .double:after {
+    box-shadow: 0px 0px 0.25em 0.2em rgba(0,0,0,0.7) inset;
+   }
+   .text {
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
     
-}
+    font-family: Ringbearer, Arial;
+    color:#ffeeb3;
+    text-shadow: 0 0 10px orange;
+    font-weight: bold;
+    padding: 0.5em 1.75em;
+    
+    background: linear-gradient(#B00, #A00, #B00);
+    border: 0.25em outset #A00; 
+   }
 .footercontainer{
     background-color: black;
     text-decoration: none;
-    z-index: 1;
+    z-index: 2;
     text-align: center;
     position: sticky;
     top: 100%;
