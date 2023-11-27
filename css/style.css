@@ -109,8 +109,7 @@ main a:active{
     color: red;
 }
 main h1{
-    font-family: Exocet, Arial;
-    text-transform: uppercase;
+    font-family: Martel, Arial;
     color: #ffeeb3;
     text-shadow: 0 0 10px orange;
     font-size: 40px;
