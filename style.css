@@ -49,14 +49,14 @@ body{
 }
 .headercontainer a{
     text-decoration: none;
-}
-.headercontainer h1{
     color: #ffeeb3;
     text-shadow: 0 0 10px orange;
+}
+.headercontainer label{
     font-size: 50px;
     margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     white-space: nowrap;
 }
 .headercontainer nav{
