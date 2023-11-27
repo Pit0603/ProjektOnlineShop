@@ -7,6 +7,10 @@
     font-family: Martel;
     src: url(../Fonts/Martel-Regular.ttf);
 }
+@font-face {
+    font-family: exocet;
+    src: url(../Fonts/EXL_____.TTF);
+}
 *{
     box-sizing: border-box;
     margin: 0;
