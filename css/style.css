@@ -1,11 +1,11 @@
 
 @font-face {
     font-family: Ringbearer;
-    src: url(Fonts/RINGM___.TTF);
+    src: url(../Fonts/RINGM___.TTF);
 }
 @font-face {
     font-family: Martel;
-    src: url(Fonts/Martel-Regular.ttf);
+    src: url(../Fonts/Martel-Regular.ttf);
 }
 *{
     box-sizing: border-box;
