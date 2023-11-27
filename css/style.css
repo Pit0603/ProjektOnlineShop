@@ -8,7 +8,7 @@
     src: url(../Fonts/Martel-Regular.ttf);
 }
 @font-face {
-    font-family: exocet;
+    font-family: Exocet;
     src: url(../Fonts/EXL_____.TTF);
 }
 *{
@@ -109,12 +109,31 @@ main a:active{
     color: red;
 }
 main h1{
+    font-family: Exocet, Arial;
+    text-transform: uppercase;
     color: #ffeeb3;
     text-shadow: 0 0 10px orange;
     font-size: 40px;
     margin-bottom: 20px;
     margin-top: 20px;
     z-index: 2;
+}
+main h2{
+    font-family: Martel, Arial;
+    color: #ffeeb3;
+    text-shadow: 0 0 10px orange;
+    font-size: 30px;
+    z-index: 2;
+    margin-bottom: 2%;
+}
+#H2HotDragons{
+    color: tomato;
+}
+#H2CoolDragons{
+    color: lightblue;
+}
+#H2MiscellaneousDragons{
+    color: lightgray;
 }
 #mainStartseite{
     padding-top: 140px;
