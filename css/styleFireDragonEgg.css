@@ -80,7 +80,7 @@ video{
     object-fit: cover;
 }
 main{
-    padding-top: 140px;
+    padding-top: 10em;
     margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -105,9 +105,6 @@ main h1{
     color: #ffeeb3;
     text-shadow: 0 0 0.6em orange;
     font-size: 3em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    z-index: 2;
 }
 main h2{
     font-family: Martel, Arial;
@@ -206,8 +203,18 @@ button{
 .footercontainer h2{
     color: #ffeeb3;
     text-shadow: 0 0 0.6em orange;
-    margin-top: 15px;
+    margin-top: 0.5em;
     margin-bottom: 15px;
+}
+.footercontainer div{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.footercontainer div a{
+    height: 3em;
+    width: 3em;
+    margin: 1em;
 }
 .footercontainer ul{
     color: #ffeeb3;
@@ -221,7 +228,7 @@ button{
 }
 .footercontainer p{
     color: #ffeeb3;
-    padding-top: 15px;
+    padding-top: 1em;
     padding-bottom: 15px;
 }
 .footercontainer a{
