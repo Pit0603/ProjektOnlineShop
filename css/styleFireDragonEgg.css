@@ -1,10 +1,10 @@
 
 @font-face {
-    font-family: Ringbearer;
+    font-family: 'Ringbearer';
     src: url(../Fonts/RINGM___.TTF);
 }
 @font-face {
-    font-family: Martel;
+    font-family: 'Martel';
     src: url(../Fonts/Martel-Regular.ttf);
 }
 *{
@@ -14,7 +14,7 @@
     text-decoration: none;
 }
 html{
-    font-family: Martel, Arial;
+    font-family: 'Martel', Arial;
     color: #aaa;
 }
 html hr{
@@ -22,7 +22,7 @@ html hr{
 }
 body{
     background-color:black;
-    font-family: Martel, Arial;
+    font-family: 'Martel', Arial;
     font-size: 1em;
     margin-left: 0;
     margin-right: 0;
@@ -37,7 +37,7 @@ body{
     width: 100%;
 }
 .headercontainer{
-    font-family: Ringbearer, Arial;
+    font-family: 'Ringbearer', Arial;
     color: #ffeeb3;
     display: flex;
     justify-content: space-between;
@@ -101,13 +101,13 @@ main a:active{
     color: red;
 }
 main h1{
-    font-family: Martel, Arial;
+    font-family: 'Martel', Arial;
     color: #ffeeb3;
     text-shadow: 0 0 0.6em orange;
     font-size: 3em;
 }
 main h2{
-    font-family: Martel, Arial;
+    font-family: 'Martel', Arial;
     color: #ffeeb3;
     text-shadow: 0 0 0.6em orange;
     font-size: 2em;
@@ -183,7 +183,7 @@ button{
     align-items: center;
     justify-content: center;
     
-    font-family: Ringbearer, Arial;
+    font-family: 'Ringbearer', Arial;
     color:#ffeeb3;
     text-shadow: 0 0 0.6em orange;
     font-weight: bold;
