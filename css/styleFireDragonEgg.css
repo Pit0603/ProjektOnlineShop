@@ -82,7 +82,7 @@ video{
 main{
     padding-top: 140px;
     margin-bottom: 5%;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 5%;
     z-index: 1;
 }
@@ -167,7 +167,7 @@ button{
     background-color: #600;
     border-width: 0.15em;
     border-style: outset outset outset inset;
-    border-color: #c98f1b;/*#FB2*/
+    border-color: #e6ae3f;/*#FB2*/
     border-radius: 2px;
     box-shadow: 0px 0px 0.09375em #000;
    }
@@ -176,7 +176,7 @@ button{
    }
    .double {
     position: relative;
-    border: 0.2em double #c98f1b;/*#FB2*/
+    border: 0.2em double #e6ae3f;/*#FB2*/
    }
    .double:after {
     box-shadow: 0px 0px 0.25em 0.2em rgba(0,0,0,0.7) inset;

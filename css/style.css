@@ -269,6 +269,16 @@ button{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.footercontainer div{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.footercontainer div a{
+    height: 3em;
+    width: 3em;
+    margin: 1em;
+}
 .footercontainer ul{
     color: #ffeeb3;
     text-align: center;
