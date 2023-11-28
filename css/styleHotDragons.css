@@ -24,8 +24,8 @@ body{
     background-color:black;
     font-family: Martel, Arial;
     font-size: 1em;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -50,10 +50,10 @@ body{
 .headercontainer a{
     text-decoration: none;
     color: #ffeeb3;
-    text-shadow: 0 0 10px orange;
+    text-shadow: 0 0 0.6em orange;
 }
 .headercontainer label{
-    font-size: 50px;
+    font-size: 4em;
     margin-left: 5%;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -64,8 +64,8 @@ body{
 }
 .headercontainer h2{
     color: #ffeeb3;
-    text-shadow: 0 0 10px orange;
-    font-size: 30px;
+    text-shadow: 0 0 0.6em orange;
+    font-size: 2em;
 }
 video{
     position: fixed;
@@ -84,7 +84,7 @@ main{
 main a{
     height: auto;
     color: #ffeeb3;
-    text-shadow: 0 0 10px orange;
+    text-shadow: 0 0 0.6em orange;
 }
 main a:visited{
     color: #ffeeb3
@@ -97,8 +97,8 @@ main a:active{
 }
 main h1{
     color: #ffeeb3;
-    text-shadow: 0 0 10px orange;
-    font-size: 50px;
+    text-shadow: 0 0 0.6em orange;
+    font-size: 4em;
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -107,8 +107,8 @@ main h1{
 main h2{
     font-family: Martel, Arial;
     color: #ffeeb3;
-    text-shadow: 0 0 10px orange;
-    font-size: 30px;
+    text-shadow: 0 0 0.6em orange;
+    font-size: 2em;
     z-index: 2;
     margin-bottom: 2%;
 }
@@ -143,7 +143,7 @@ main h2{
 }
 .footercontainer h2{
     color: #ffeeb3;
-    text-shadow: 0 0 10px orange;
+    text-shadow: 0 0 0.6em orange;
     margin-top: 15px;
     margin-bottom: 15px;
 }

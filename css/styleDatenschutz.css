@@ -28,8 +28,8 @@ body{
     background-color:black;
     font-family: Martel, Arial;
     font-size: 1em;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -54,10 +54,10 @@ body{
 .headercontainer a{
     text-decoration: none;
     color: #ffeeb3;
-    text-shadow: 0 0 10px orange;
+    text-shadow: 0 0 0.6em orange;
 }
 .headercontainer label{
-    font-size: 50px;
+    font-size: 4em;
     margin-left: 5%;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -68,8 +68,8 @@ body{
 }
 .headercontainer h2{
     color: #ffeeb3;
-    text-shadow: 0 0 10px orange;
-    font-size: 30px;
+    text-shadow: 0 0 0.6em orange;
+    font-size: 2em;
 }
 main{
     padding-top: 140px;
@@ -92,7 +92,7 @@ main dd{
 main h1{
     font-family: Martel, Arial;
     color: #ffeeb3;
-    text-shadow: 0 0 10px orange;
+    text-shadow: 0 0 0.6em orange;
     font-size: 40px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -101,14 +101,14 @@ main h1{
 main h2{
     font-family: Martel, Arial;
     color: #ffeeb3;
-    font-size: 25px;
+    font-size: 1.5em;
     margin-bottom: 2%;
     z-index: 2;
 }
 main a{
     height: auto;
     color: #ffeeb3;
-    text-shadow: 0 0 10px orange;
+    text-shadow: 0 0 0.6em orange;
 }
 main a:visited{
     color: #ffeeb3
@@ -129,7 +129,7 @@ main a:active{
 }
 .footercontainer h2{
     color: #ffeeb3;
-    text-shadow: 0 0 10px orange;
+    text-shadow: 0 0 0.6em orange;
     margin-top: 15px;
     margin-bottom: 15px;
 }

@@ -101,13 +101,13 @@ main a:active{
     color: red;
 }
 main h1{
-    font-family: Martel, Arial;
     color: #ffeeb3;
     text-shadow: 0 0 0.6em orange;
-    font-size: 3em;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    z-index: 2;
+    font-size: 4em;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    z-index: 1;
 }
 main h2{
     font-family: Martel, Arial;
@@ -117,84 +117,37 @@ main h2{
     z-index: 2;
     margin-bottom: 2%;
 }
-.FireDragonSeite{
+#H2HotDragons{
+    color: tomato;
+}
+#H2CoolDragons{
+    color: lightblue;
+}
+#H2MiscellaneousDragons{
+    color: lightgray;
+}
+.containerProdukte{
     display: flex;
-    margin-top: 5%;
+    flex-direction: column;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
-.FireDragonSeite img{
-    float: left;
-}
-.FireDragonSeite h1{
-    margin: auto;
-    width: 450px;
-    text-align: center;
-    color: #f5f5f5;
-    text-shadow: 0px -2px 4px #fff,
-                 0px -2px 10px #FF3,
-                 0px -10px 20px #F90,
-                 0px -20px 40px #C33;
-}
-.FireDragonSeite p{
-    margin: auto;
-    margin-left: 2%;
-}
-#divbutton{
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-button{
-    cursor: pointer;
-    line-height: 1;
-    padding: 0;
+.mainBox{
     position: relative;
-    font-size:2.5em;
-   }
-   .fantasy span, .fantasy:after, .double:after {
-    display: inline-block;
-    height: 100%;
+    border-style: ridge;
+    border-color: grey;
+    border-width: 5px;
+    z-index: 1;
+    margin-bottom: 2em;
+}
+.mainBoxChild{
+    display: flex;
+    height: 200px;
     width: 100%;
-    box-sizing: border-box;
-   }
-   .fantasy:after, .double:after {
-    content: "";
-    position: absolute;
-    top:0;
-    left:0;
-   }
-   .fantasy {
-    background-color: #600;
-    border-width: 0.15em;
-    border-style: outset outset outset inset;
-    border-color: #e6ae3f;/*#FB2*/
-    border-radius: 2px;
-    box-shadow: 0px 0px 0.09375em #000;
-   }
-   .fantasy:after {
-    box-shadow: 0px 0px 0.25em 0.25em rgba(0,0,0,0.5) inset;
-   }
-   .double {
-    position: relative;
-    border: 0.2em double #e6ae3f;/*#FB2*/
-   }
-   .double:after {
-    box-shadow: 0px 0px 0.25em 0.2em rgba(0,0,0,0.7) inset;
-   }
-   .text {
-    display:inline-flex;
-    align-items: center;
-    justify-content: center;
-    
-    font-family: Ringbearer, Arial;
-    color:#ffeeb3;
-    text-shadow: 0 0 0.6em orange;
-    font-weight: bold;
-    padding: 0.5em 1.75em;
-    
-    background: linear-gradient(#B00, #A00, #B00);
-    border: 0.25em outset #A00; 
-   }
+    align-items:normal;
+}
 .footercontainer{
     background-color: black;
     text-decoration: none;
@@ -208,6 +161,16 @@ button{
     text-shadow: 0 0 0.6em orange;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+.footercontainer div{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.footercontainer div a{
+    height: 3em;
+    width: 3em;
+    margin: 1em;
 }
 .footercontainer ul{
     color: #ffeeb3;
