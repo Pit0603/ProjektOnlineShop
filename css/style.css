@@ -159,12 +159,12 @@ main h2{
     position: relative;
     border-style: ridge;
     border-color: grey;
-    border-width: 5px;
+    border-width: 0.313em;
     z-index: 1;
 }
 .mainBoxChild{
     display: flex;
-    height: 200px;
+    height: 12.5em;
     width: 100%;
     align-items:normal;
 }
