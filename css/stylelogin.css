@@ -35,7 +35,7 @@ html hr{
     position: fixed;
     z-index: 2;
     width: 100%;
-    bottom: 500px;
+    
 }
 .headercontainer{
     font-family: 'Ringbearer', Arial;
@@ -47,6 +47,7 @@ html hr{
     z-index: 2;
     background-color: black;
     text-decoration: none;
+    
 
 }
 .headercontainer a{
