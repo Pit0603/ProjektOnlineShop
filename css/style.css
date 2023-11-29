@@ -1,0 +1,309 @@
+
+@font-face {
+    font-family: 'Ringbearer';
+    src: url(../Fonts/RINGM___.TTF);
+}
+@font-face {
+    font-family: 'Martel';
+    src: url(../Fonts/Martel-Regular.ttf);
+}
+@font-face {
+    font-family: 'Exocet';
+    src: url(../Fonts/EXL_____.TTF);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html{
+    font-family: 'Martel', Arial;
+    color: #aaa;
+}
+html hr{
+    border-color: #ffeeb3;
+}
+body{
+    background-color:black;
+    font-family: 'Martel', Arial;
+    font-size: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.divheader{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.headercontainer{
+    font-family: 'Ringbearer', Arial;
+    color: #ffeeb3;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;
+    z-index: 2;
+    background-color: black;
+    text-decoration: none;
+}
+.headercontainer a{
+    text-decoration: none;
+    color: #ffeeb3;
+    text-shadow: 0 0 0.6em orange;
+}
+.headercontainer label{
+    font-size: 4em;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    white-space: nowrap;
+}
+.headercontainer nav{
+    margin-right: 5%;
+}
+.headercontainer h2{
+    color: #ffeeb3;
+    text-shadow: 0 0 0.6em orange;
+    font-size: 2em;
+}
+#video-background{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+video{
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+main{
+    padding-top: 10em;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+    z-index: 1;
+}
+main b{
+    color: #ffeeb3;
+
+}
+main a{
+    height: auto;
+    color: #ffeeb3;
+    text-shadow: 0 0 0.6em orange;
+}
+main a:visited{
+    color: #ffeeb3
+}
+main a:hover{
+    color: tomato;
+}
+main a:active{
+    color: red;
+}
+main h1{
+    font-family: 'Martel', Arial;
+    color: #ffeeb3;
+    text-shadow: 0 0 0.6em orange;
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    z-index: 2;
+}
+main h2{
+    font-family: 'Martel', Arial;
+    color: #ffeeb3;
+    text-shadow: 0 0 0.6em orange;
+    font-size: 2em;
+    z-index: 2;
+    margin-bottom: 2%;
+}
+#H2HotDragons{
+    color: tomato;
+}
+#H2CoolDragons{
+    color: lightblue;
+}
+#H2MiscellaneousDragons{
+    color: lightgray;
+}
+#mainStartseite{
+    padding-top: 10em;
+    margin: 0;
+}
+#h1Startseite{
+    color: #ffeeb3;
+    text-shadow: 0 0 0.6em orange;
+    font-size: 4em;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    z-index: 1;
+}
+.containerProdukte{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.mainBox{
+    position: relative;
+    border-style: ridge;
+    border-color: grey;
+    border-width: 5px;
+    z-index: 1;
+}
+.mainBoxChild{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items:normal;
+}
+.login{
+    margin-left: 10%;
+}
+.register{
+    margin-left: 10%;
+}
+.resetpassword{
+    margin-left: 10%;
+}
+.FireDragonSeite{
+    display: flex;
+    margin-top: 5%;
+}
+.FireDragonSeite img{
+    float: left;
+}
+.FireDragonSeite h1{
+    margin: auto;
+    width: 450px;
+    text-align: center;
+    color: #f5f5f5;
+    text-shadow: 0px -2px 4px #fff,
+                 0px -2px 10px #FF3,
+                 0px -10px 20px #F90,
+                 0px -20px 40px #C33;
+}
+.FireDragonSeite p{
+    margin: auto;
+    margin-left: 2%;
+}
+#divbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+button{
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    position: relative;
+    font-size:2.5em;
+   }
+   .fantasy span, .fantasy:after, .double:after {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+   }
+   .fantasy:after, .double:after {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+   }
+   .fantasy {
+    background-color: #600;
+    border-width: 0.15em;
+    border-style: outset outset outset inset;
+    border-color: #FB2;/*#FB2*/
+    border-radius: 2px;
+    box-shadow: 0px 0px 0.09375em #000;
+   }
+   .fantasy:after {
+    box-shadow: 0px 0px 0.25em 0.25em rgba(0,0,0,0.5) inset;
+   }
+   .double {
+    position: relative;
+    border: 0.2em double #FB2;
+   }
+   .double:after {
+    box-shadow: 0px 0px 0.25em 0.2em rgba(0,0,0,0.7) inset;
+   }
+   .text {
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: 'Ringbearer', Arial;
+    color:#ffeeb3;
+    text-shadow: 0 0 0.6em orange;
+    font-weight: bold;
+    padding: 0.5em 1.75em;
+    
+    background: linear-gradient(#B00, #A00, #B00);
+    border: 0.25em outset #A00; 
+   }
+.footercontainer{
+    background-color: black;
+    text-decoration: none;
+    z-index: 2;
+    text-align: center;
+    position: sticky;
+    top: 100%;
+}
+.footercontainer h2{
+    color: #ffeeb3;
+    text-shadow: 0 0 0.6em orange;
+    margin-top: 0.5em;
+    margin-bottom: 15px;
+}
+.footercontainer div{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.footercontainer div a{
+    height: 3em;
+    width: 3em;
+    margin: 1em;
+}
+.footercontainer ul{
+    color: #ffeeb3;
+    text-align: center;
+    list-style-type: none;
+    padding: 0%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+.footercontainer p{
+    color: #ffeeb3;
+    padding-top: 1em;
+    padding-bottom: 15px;
+}
+.footercontainer a{
+    color: #ffeeb3;
+    text-decoration: none;
+}
+.footercontainer a:visited{
+    color: #aaa;
+}
+.footercontainer a:hover{
+    color: tomato;
+}
+.footercontainer a:active{
+    color: red;
+}
