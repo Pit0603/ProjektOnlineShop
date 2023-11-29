@@ -167,11 +167,18 @@ main h2{
     height: 12.5em;
     width: 100%;
     align-items:normal;
-    background-color: transparent;
-    backdrop-filter: blur(1em);
+}
+.mainBox img{
+    border-style: ridge;
+    border-color: grey;
+    border-width: 0.313em;
 }
 .mainBoxChild div{
-    margin: 2%;
+    margin-left: 1%;
+    padding: 2%;
+    background-color: transparent;
+    backdrop-filter: blur(1em);
+    border-radius: 1em;
 }
 .login{
     margin-left: 10%;
