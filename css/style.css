@@ -167,6 +167,8 @@ main h2{
     height: 12.5em;
     width: 100%;
     align-items:normal;
+    background-color: transparent;
+    backdrop-filter: blur(1em);
 }
 .mainBoxChild div{
     margin: 2%;

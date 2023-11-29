@@ -137,9 +137,9 @@ main p{
 }
 .mainBox{
     position: relative;
-    border-style: ridge;
+    /*border-style: ridge;
     border-color: grey;
-    border-width: 0.313em;
+    border-width: 0.313em;*/
     z-index: 1;
     margin-bottom: 2em;
 }
@@ -148,9 +148,26 @@ main p{
     height: 12.5em;
     width: 100%;
     align-items:normal;
+    /*background-color: transparent;
+    backdrop-filter: blur(1em);
+    border-radius: 1em;*/
+}
+.mainBox img{
+    border-style: ridge;
+    border-color: grey;
+    border-width: 0.313em;
+}
+#imgHotDragons{
+    border-style: ridge;
+    border-color: #ffeeb3;
+    border-width: 0.313em;
 }
 .mainBoxChild div{
-    margin: 2%;
+    margin-left: 1%;
+    padding: 2%;
+    background-color: transparent;
+    backdrop-filter: blur(1em);
+    border-radius: 1em;
 }
 .footercontainer{
     background-color: black;
