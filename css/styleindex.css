@@ -71,11 +71,6 @@ body{
     text-shadow: 0 0 0.6em orange;
     font-size: 2em;
 }
-#video-background{
-    position: fixed;
-    width: 100%;
-    z-index: -1;
-}
 video{
     position: fixed;
     z-index: -1;
@@ -149,10 +144,17 @@ main p{
     height: 12.5em;
     width: 100%;
     align-items:normal;
+    height: auto;
 }
 .mainBox img{
+    display: flex;
     border-style: ridge;
     border-color: grey;
+    border-width: 0.313em;
+}
+#imgHotDragons{
+    border-style: ridge;
+    border-color: #ffeeb3;
     border-width: 0.313em;
 }
 #imgCoolDragons{
@@ -162,12 +164,7 @@ main p{
 }
 #imgMiscellaneousDragons{
     border-style: ridge;
-    border-color: darkgrey;
-    border-width: 0.313em;
-}
-#imgHotDragons{
-    border-style: ridge;
-    border-color: #ffeeb3;
+    border-color: lightgrey;
     border-width: 0.313em;
 }
 .mainBoxChild div{

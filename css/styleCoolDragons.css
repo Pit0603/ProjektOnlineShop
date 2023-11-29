@@ -71,11 +71,6 @@ body{
     text-shadow: 0 0 0.6em orange;
     font-size: 2em;
 }
-#video-background{
-    position: fixed;
-    width: 100%;
-    z-index: -1;
-}
 video{
     position: fixed;
     z-index: -1;
@@ -106,7 +101,7 @@ main a:active{
 }
 main h1{
     font-family: 'Frozen', Arial;
-    color: lightblue;
+    color: turquoise;
     text-shadow: 0 -0.125em 0.25em #fff,
                  0 -0.125em 0.625em lightblue,
                  0 -0.625em 1.25em blue,
@@ -152,8 +147,10 @@ main h2{
     height: 12.5em;
     width: 100%;
     align-items:normal;
+    height: auto;
 }
 .mainBox img{
+    display: flex;
     border-style: ridge;
     border-color: grey;
     border-width: 0.313em;

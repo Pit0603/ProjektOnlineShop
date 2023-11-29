@@ -167,8 +167,10 @@ main h2{
     height: 12.5em;
     width: 100%;
     align-items:normal;
+    height: auto;
 }
 .mainBox img{
+    display: flex;
     border-style: ridge;
     border-color: grey;
     border-width: 0.313em;

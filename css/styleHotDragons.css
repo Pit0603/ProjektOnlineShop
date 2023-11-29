@@ -147,10 +147,27 @@ main h2{
     height: 12.5em;
     width: 100%;
     align-items:normal;
+    height: auto;
 }
 .mainBox img{
+    display: flex;
     border-style: ridge;
     border-color: grey;
+    border-width: 0.313em;
+}
+#imgFireDragon{
+    border-style: ridge;
+    border-color: tomato;
+    border-width: 0.313em;
+}
+#imgLavaDragon{
+    border-style: ridge;
+    border-color: darkorange;
+    border-width: 0.313em;
+}
+#imgSunDragon{
+    border-style: ridge;
+    border-color: lightgoldenrodyellow;
     border-width: 0.313em;
 }
 .mainBoxChild div{
