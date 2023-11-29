@@ -168,6 +168,9 @@ main h2{
     width: 100%;
     align-items:normal;
 }
+.mainBoxChild div{
+    margin: 2%;
+}
 .login{
     margin-left: 10%;
 }
