@@ -139,9 +139,6 @@ main h2{
 }
 .mainBox{
     position: relative;
-    border-style: ridge;
-    border-color: grey;
-    border-width: 0.313em;
     z-index: 1;
     margin-bottom: 2em;
 }
@@ -151,8 +148,17 @@ main h2{
     width: 100%;
     align-items:normal;
 }
+.mainBox img{
+    border-style: ridge;
+    border-color: grey;
+    border-width: 0.313em;
+}
 .mainBoxChild div{
-    margin: 2%;
+    margin-left: 1%;
+    padding: 2%;
+    background-color: transparent;
+    backdrop-filter: blur(1em);
+    border-radius: 1em;
 }
 .footercontainer{
     background-color: black;
