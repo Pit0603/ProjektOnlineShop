@@ -1,9 +1,28 @@
+@font-face {
+  font-family: 'Ringbearer';
+  src: url(../Fonts/RINGM___.TTF);
+}
+@font-face {
+  font-family: 'Martel';
+  src: url(../Fonts/Martel-Regular.ttf);
+}
+@font-face {
+  font-family: 'Frozen';
+  src: url(../Fonts/Frozen.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
+  html{
+    font-family: 'Martel', Arial;
+    color: #aaa;
+}
+html hr{
+    border-color: #ffeeb3;
+}
   body{
     display: flex;
     justify-content: center;
@@ -12,28 +31,39 @@
     background-size: cover;
     background-position: center;
   }
-  .header{
-  background: transparent;
-  border: none;
-  border-radius: 20px;
-  position: fixed;
-  left: 10px;
-  right: 10;
-  bottom: 490px;
-  border: none;
-  width: 400px;
-  height: 90px;
-  }
-  .header h1{
-    font-family: fantasy;   
-     color: rgba(170, 48, 48, 0.869);
-      text-shadow: red 0px 0px 10px;
-      font-size: 35px;
-      margin-left: -10%;
-      margin-top: 5%;
-      margin-bottom: 5%;
-      
-  }
+  .divheader{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    bottom: 500px;
+}
+.headercontainer{
+    font-family: 'Ringbearer', Arial;
+    color: #ffeeb3;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;
+    z-index: 2;
+    background-color: black;
+    text-decoration: none;
+
+}
+.headercontainer a{
+  font-family: 'Ringbearer', Arial;
+    text-decoration: none;
+    color: #ffeeb3;
+    text-shadow: 0 0 0.6em orange;
+    
+}
+.headercontainer label{
+    font-size: 4em;
+    margin-left: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    white-space: nowrap;
+}
+
   .login{
     position: relative;
     width: 400px;
