@@ -138,7 +138,7 @@ main h2{
     margin-bottom: 10%;
 }
 .mainBox{
-    position: relative;
+    /*position: relative;*/
     z-index: 1;
     margin-bottom: 2em;
 }
@@ -148,6 +148,10 @@ main h2{
     width: 100%;
     align-items:normal;
     height: auto;
+}
+.mainBox a{
+    height:fit-content;
+    width: fit-content;
 }
 .mainBox img{
     display: flex;
