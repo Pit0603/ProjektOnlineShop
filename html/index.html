@@ -6,24 +6,26 @@
         <link rel="icon" type="image/png" href="../Icons/DragonIcon.png">
         <title>Dragon Egg Emporium</title>
         <link rel="stylesheet" href="../css/styleindex.css">
+        <script src="/JavaScript/login_script.js" defer></script>
     </head>
 
     <body>
-        <div class="divheader">
-            <header class="headercontainer">
-                <label>
-                    <a href="../html/index.html" target="_self" title="Hier kommen Sie zur Startseite" >
-                        Dragon Egg Emporium
-                    </a>
-                </label>
+        <header>
                 <nav>
-                    <a href="../html/login.html" target="_self" title="Hier können Sie sich Anmelden">
-                        <h2>Anmelden</h2>
-                    </a>
+                        <label>
+                            <a href="../html/index.html" target="_self" title="Hier kommen Sie zur Startseite" >
+                                Dragon Egg Emporium
+                            </a>
+                        </label>
+                        <div id="Anmelden">
+                            <a href="../html/login.html" target="_self" title="Hier können Sie sich Anmelden">
+                                <h2>Anmelden</h2>
+                            </a>
+                        </div>
                 </nav>
-            </header>
-            <hr>
-        </div>
+           <hr>
+        </header>
+        
 
         <video autoplay muted loop>
             <source src="../Video/Background2.mp4" type="video/mp4">
@@ -33,10 +35,10 @@
 
     <main>
 
-        <div class="containerProdukte">
-            <h1>Startseite</h1>
+        <article>
+            <h1>Startseite1</h1>
         
-            <div class="mainBox">
+            <section>
                 <div class="mainBoxChild">
                     <a href="../html/hotdragons.html"
                         target="_self"
@@ -55,9 +57,9 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </section>
            
-            <div class="mainBox">
+            <section>
                 <div class="mainBoxChild">
                     <a href="../html/cooldragons.html"
                         target="_self"
@@ -76,9 +78,9 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </section>
             
-            <div class="mainBox">
+            <section>
                 <div class="mainBoxChild">
                     <a href="../html/miscellaneousdragons.html"
                         target="_self"
@@ -97,8 +99,8 @@
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
+        </article>
 
     </main>
         
