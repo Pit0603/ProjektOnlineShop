@@ -71,11 +71,6 @@ body{
     text-shadow: 0 0 0.6em orange;
     font-size: 2em;
 }
-#video-background{
-    position: fixed;
-    width: 100%;
-    z-index: -1;
-}
 video{
     position: fixed;
     z-index: -1;
@@ -106,7 +101,7 @@ main a:active{
 }
 main h1{
     font-family: 'Frozen', Arial;
-    color: lightblue;
+    color: turquoise;
     text-shadow: 0 -0.125em 0.25em #fff,
                  0 -0.125em 0.625em lightblue,
                  0 -0.625em 1.25em blue,
@@ -143,7 +138,7 @@ main h2{
     margin-bottom: 10%;
 }
 .mainBox{
-    position: relative;
+    /*position: relative;*/
     z-index: 1;
     margin-bottom: 2em;
 }
@@ -152,8 +147,14 @@ main h2{
     height: 12.5em;
     width: 100%;
     align-items:normal;
+    height: auto;
+}
+.mainBox a{
+    height:fit-content;
+    width: fit-content;
 }
 .mainBox img{
+    display: flex;
     border-style: ridge;
     border-color: grey;
     border-width: 0.313em;
@@ -188,6 +189,9 @@ main h2{
     height: 3em;
     width: 3em;
     margin: 1em;
+}
+#X{
+    margin-top: 0.25em;
 }
 .footercontainer ul{
     color: #ffeeb3;

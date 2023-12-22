@@ -78,7 +78,8 @@
       min-height: 100vh;
       background-size: cover;
       background-position: center;
-      padding-top: 10em;
+      
+
   }
   .register{
     position: relative;
@@ -91,6 +92,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
   }
   h1{
     font-size: 36px;

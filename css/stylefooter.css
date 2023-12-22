@@ -134,6 +134,9 @@ main dd{
     width: 3em;
     margin: 1em;
 }
+#X{
+    margin-top: 0.25em;
+}
 .footercontainer ul{
     color: #ffeeb3;
     text-align: center;

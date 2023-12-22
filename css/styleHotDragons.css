@@ -138,7 +138,7 @@ main h2{
     margin-bottom: 10%;
 }
 .mainBox{
-    position: relative;
+    /*position: relative;*/
     z-index: 1;
     margin-bottom: 2em;
 }
@@ -147,10 +147,31 @@ main h2{
     height: 12.5em;
     width: 100%;
     align-items:normal;
+    height: auto;
+}
+.mainBox a{
+    height:fit-content;
+    width: fit-content;
 }
 .mainBox img{
+    display: flex;
     border-style: ridge;
     border-color: grey;
+    border-width: 0.313em;
+}
+#imgFireDragon{
+    border-style: ridge;
+    border-color: tomato;
+    border-width: 0.313em;
+}
+#imgLavaDragon{
+    border-style: ridge;
+    border-color: darkorange;
+    border-width: 0.313em;
+}
+#imgSunDragon{
+    border-style: ridge;
+    border-color: lightgoldenrodyellow;
     border-width: 0.313em;
 }
 .mainBoxChild div{
@@ -183,6 +204,9 @@ main h2{
     height: 3em;
     width: 3em;
     margin: 1em;
+}
+#X{
+    margin-top: 0.25em;
 }
 .footercontainer ul{
     color: #ffeeb3;
