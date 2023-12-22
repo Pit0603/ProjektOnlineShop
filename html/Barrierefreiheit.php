@@ -1,3 +1,6 @@
+<?php
+    include("header.html");
+?>
 <!DOCTYPE html>
 <html lang="de">
     <head>
@@ -10,21 +13,7 @@
     </head>
 
     <body>
-        <div class="divheader">
-            <header class="headercontainer">
-                <label>
-                    <a href="index.php" target="_self" title="Hier kommen Sie zur Startseite" >
-                        Dragon Egg Emporium
-                    </a>
-                </label>
-                <nav>
-                    <a href="login.php" target="_self" title="Hier können Sie sich Anmelden" id="usernameText">
-                        <h2>Anmelden</h2>
-                    </a>
-                </nav>
-            </header>
-            <hr>
-        </div>
+        
     <main>
             <h1>Barrierefreiheit</h1>
             <p><br>
@@ -71,4 +60,6 @@
                     </p>
             </footer>
         </body>
-    </html>
+    <?php
+    include("footer.html");
+?>

@@ -1,3 +1,6 @@
+<?php
+    include("header.html");
+?>
 <!DOCTYPE html>
 <html lang="de">
     <head>
@@ -48,4 +51,6 @@
       </div>
     </section>      
 </body>
-</html>
+<?php
+    include("footer.html");
+?>
