@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="../Icons/DragonIcon.png">
         <title>Dragon Egg Emporium</title>
-        <link rel="stylesheet" href="../css/stylefooter.css">
+        <link rel="stylesheet" href="../css/style.css">
         <script src="/JavaScript/login_script.js" defer></script>
     </head>
 
@@ -13,12 +13,12 @@
         <div class="divheader">
             <header class="headercontainer">
                 <label>
-                    <a href="../html/index.html" target="_self" title="Hier kommen Sie zur Startseite" >
+                    <a href="index.php" target="_self" title="Hier kommen Sie zur Startseite" >
                         Dragon Egg Emporium
                     </a>
                 </label>
                 <nav>
-                    <a href="../html/login.html" target="_self" title="Hier können Sie sich Anmelden" id="usernameText">
+                    <a href="login.php" target="_self" title="Hier können Sie sich Anmelden" id="usernameText">
                         <h2>Anmelden</h2>
                     </a>
                 </nav>
@@ -26,15 +26,17 @@
             <hr>
         </div>
     <main>
-            <h1>Kontakt</h1>
-            <p>
-            Corvin Zumpe, Mohamed Widadi und Pit Dahlem<br>
-            54296 Trier<br>
-            Deutschland<br>
-            E-Mail: konatkt@dragoneggemporium.com<br>
-            Tel.: 0123 4567<br>
-            </p>
+            <h1>Ender-Dragon-Egg</h1>
+
+            <img src="Bilder/EnderDragonEgg.png"
+            alt="This is a picture of an Enderdragon Egg"
+            height="300">
+            <br>
+
+            
+            
         </main>
+
         <footer class="footercontainer">
             <hr>
             <div>
@@ -47,10 +49,10 @@
             </div>
             <h2>Rechtliches</h2>
             <ul>
-                <li><a href="../html/Impressum.html" target="_self" title="Hier kommen Sie zu unserem Impressum">Impressum</a><br></li>
-                <li><a href="../html/Datenschutz.html" target="_self" title="Hier kommen Sie zu unserer Datenschutzerklärung">Datenschutz</a><br></li>
-                <li><a href="../html/Barrierefreiheit.html" target="_self" title="Hier kommen sie zur Erklärung zur Barrierefreiheit">Barrierefreiheit</a><br></li>
-                <li><a href="../html/Kontakt.html" target="_self" title="Hier kommen Sie zu unseren Kontaktinformationen">Kontakt</a><br></li>
+                <li><a href="Impressum.php" target="_self" title="Hier kommen Sie zu unserem Impressum">Impressum</a><br></li>
+                <li><a href="Datenschutz.php" target="_self" title="Hier kommen Sie zu unserer Datenschutzerklärung">Datenschutz</a><br></li>
+                <li><a href="Barrierefreiheit.php" target="_self" title="Hier kommen sie zur Erklärung zur Barrierefreiheit">Barrierefreiheit</a><br></li>
+                <li><a href="Kontakt.php" target="_self" title="Hier kommen Sie zu unseren Kontaktinformationen">Kontakt</a><br></li>
             </ul>
                 <p>
                 Corvin, Mohamed, Pit<br>

@@ -14,7 +14,7 @@
   <div class="divheader">
     <header class="headercontainer">
         <label>
-            <a href="../html/index.html" target="_self" title="Hier kommen Sie zur Startseite" >
+            <a href="index.php" target="_self" title="Hier kommen Sie zur Startseite" >
                 Dragon Egg Emporium
             </a>
         </label>
@@ -30,7 +30,7 @@
     <section>
       
     <div class="resetpassword">
-        <form action="login.html">
+        <form action="login.php">
           <h1>Passwort zurücksetzen</h1>
           <div class="input-box">
             <input type="password" placeholder="Passwort" required>

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="../Icons/DragonIcon.png">
         <title>Dragon Egg Emporium</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/styleFireDragonEgg.css">
         <script src="/JavaScript/login_script.js" defer></script>
     </head>
 
@@ -13,12 +13,12 @@
         <div class="divheader">
             <header class="headercontainer">
                 <label>
-                    <a href="../html/index.html" target="_self" title="Hier kommen Sie zur Startseite" >
+                    <a href="index.php" target="_self" title="Hier kommen Sie zur Startseite" >
                         Dragon Egg Emporium
                     </a>
                 </label>
                 <nav>
-                    <a href="../html/login.html" target="_self" title="Hier können Sie sich Anmelden" id="usernameText">
+                    <a href="login.php" target="_self" title="Hier können Sie sich Anmelden" id="usernameText">
                         <h2>Anmelden</h2>
                     </a>
                 </nav>
@@ -27,16 +27,16 @@
         </div>
 
         <video autoplay muted loop>
-            <source src="../Video/SnowfallBackground3.mp4" type="video/mp4">
+            <source src="../Video/Fire.mp4" type="video/mp4">
             <!-- Füge hier weitere Source-Tags hinzu, um unterschiedliche Videoformate zu unterstützen -->
             Dein Browser unterstützt das Video-Tag nicht.
         </video>
 
     <main>
-
+        
         <div class="FireDragonSeite">
             <img
-            src="../Bilder/IceDragonEggFrame.png"
+            src="../Bilder/FireDragonEggFrame.png"
             alt="This is a picture of a Fire-Dragon Egg"
             title="This is a picture of a Fire-Dragon-Egg"
             height="500" width="500">
@@ -49,15 +49,24 @@
                           deleniti tempore cupiditate non exercitationem harum facere magni neque.</p>
                 </div>
             </div>
+
             <div id="divbutton">
-                <button class="fantasy">
+                <a href="MakeOffer.php">
+                    <button class="fantasy">
                     <span class="double">
                      <span class="text">Angebot machen</span>
                     </span>
                    </button>
-            </div>        
+                </a>
+            </div>
             
+        <!--<audio autoplay>
+            <source src="Audio/DragonSound.mp3" type="Audio/mp3">
+            <source src="Audio/DragonSound.wav" type="Audio/wav">
+        </audio>-->
+        
     </main>
+
         <footer class="footercontainer">
             <hr>
             <div>
@@ -70,10 +79,10 @@
             </div>
             <h2>Rechtliches</h2>
             <ul>
-                <li><a href="../html/Impressum.html" target="_self" title="Hier kommen Sie zu unserem Impressum">Impressum</a><br></li>
-                <li><a href="../html/Datenschutz.html" target="_self" title="Hier kommen Sie zu unserer Datenschutzerklärung">Datenschutz</a><br></li>
-                <li><a href="../html/Barrierefreiheit.html" target="_self" title="Hier kommen sie zur Erklärung zur Barrierefreiheit">Barrierefreiheit</a><br></li>
-                <li><a href="../html/Kontakt.html" target="_self" title="Hier kommen Sie zu unseren Kontaktinformationen">Kontakt</a><br></li>
+                <li><a href="Impressum.php" target="_self" title="Hier kommen Sie zu unserem Impressum">Impressum</a><br></li>
+                <li><a href="Datenschutz.php" target="_self" title="Hier kommen Sie zu unserer Datenschutzerklärung">Datenschutz</a><br></li>
+                <li><a href="Barrierefreiheit.php" target="_self" title="Hier kommen sie zur Erklärung zur Barrierefreiheit">Barrierefreiheit</a><br></li>
+                <li><a href="Kontakt.php" target="_self" title="Hier kommen Sie zu unseren Kontaktinformationen">Kontakt</a><br></li>
             </ul>
                 <p>
                 Corvin, Mohamed, Pit<br>

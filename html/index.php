@@ -1,3 +1,6 @@
+<?php
+    include("header.html");
+?>
 <!DOCTYPE html>
 <html lang="de">
     <head>
@@ -8,24 +11,8 @@
         <link rel="stylesheet" href="../css/styleindex.css">
         <script src="/JavaScript/login_script.js" defer></script>
     </head>
-
+    
     <body>
-        <header>
-                <nav>
-                        <label>
-                            <a href="../html/index.html" target="_self" title="Hier kommen Sie zur Startseite" >
-                                Dragon Egg Emporium
-                            </a>
-                        </label>
-                        <div id="Anmelden">
-                            <a href="../html/login.html" target="_self" title="Hier können Sie sich Anmelden" id="usernameText">
-                                <h2>Anmelden</h2>
-                            </a>
-                        </div>
-                </nav>
-           <hr>
-        </header>
-        
 
         <video autoplay muted loop>
             <source src="../Video/Background2.mp4" type="video/mp4">
@@ -40,7 +27,7 @@
         
             <section>
                 <div class="mainBoxChild">
-                    <a href="../html/hotdragons.html"
+                    <a href="hotdragons.php"
                         target="_self"
                         title="Hot Dragons">
                         <img id="imgHotDragons" src= "../Bilder/HotDragonEggs.png"
@@ -48,7 +35,7 @@
                         height="200">
                         </a>
                     <div>
-                        <a href="../html/hotdragons.html"
+                        <a href="hotdragons.php"
                         target="_self"
                         title="Hot Dragons">
                         <h2 id="H2HotDragons">Hot Dragons</h2>
@@ -61,7 +48,7 @@
            
             <section>
                 <div class="mainBoxChild">
-                    <a href="../html/cooldragons.html"
+                    <a href="cooldragons.php"
                         target="_self"
                         title="Cool Dragons">
                         <img id="imgCoolDragons" src= "../Bilder/CoolDragonEggs.png"
@@ -69,7 +56,7 @@
                         height="200">
                         </a>
                     <div>
-                        <a href="../html/cooldragons.html"
+                        <a href="cooldragons.php"
                         target="_self"
                         title="Cool Dragons">
                         <h2 id="H2CoolDragons">Cool Dragons</h2>
@@ -82,7 +69,7 @@
             
             <section>
                 <div class="mainBoxChild">
-                    <a href="../html/miscellaneousdragons.html"
+                    <a href="miscellaneousdragons.php"
                         target="_self"
                         title="Miscellaneous Dragons">
                         <img id="imgMiscellaneousDragons" src= "../Bilder/MiscellaneousDragonEggs.png"
@@ -90,7 +77,7 @@
                         height="200">
                     </a>
                     <div>
-                        <a href="../html/miscellaneousdragons.html"
+                        <a href="miscellaneousdragons.php"
                         target="_self"
                         title="Miscellaneous Dragons">
                         <h2 id="H2MiscellaneousDragons">Miscellaneous Dragons</h2>
@@ -103,28 +90,8 @@
         </article>
 
     </main>
-        
-        <footer class="footercontainer">
-            <hr>
-            <div>
-                <a href="https://de.facebook.com" target="_blank" title="Hier kommen sie zu unserer Facebook Seite">
-                <img src="../Icons/facebook-app-round-white-icon.svg" alt="Facebook"></a>
-                <a href="https://twitter.com" target="_blank" title="Hier kommen sie zu unserer X Seite">
-                <img id="X" src="../Icons/x-social-media-white-icon.svg" alt="X"></a>
-                <a href="https://instagram.com" target="_blank" title="Hier kommen sie zu unserer Instagram Seite">
-                <img src="../Icons/instagram-white-icon.svg" alt="Instagram"></a>
-            </div>
-            <h2>Rechtliches</h2>
-            <ul>
-                <li><a href="../html/Impressum.html" target="_self" title="Hier kommen Sie zu unserem Impressum">Impressum</a><br></li>
-                <li><a href="../html/Datenschutz.html" target="_self" title="Hier kommen Sie zu unserer Datenschutzerklärung">Datenschutz</a><br></li>
-                <li><a href="../html/Barrierefreiheit.html" target="_self" title="Hier kommen sie zur Erklärung zur Barrierefreiheit">Barrierefreiheit</a><br></li>
-                <li><a href="../html/Kontakt.html" target="_self" title="Hier kommen Sie zu unseren Kontaktinformationen">Kontakt</a><br></li>
-            </ul>
-                <p>
-                Corvin, Mohamed, Pit<br>
-                <small> &copy; 2023 All Rights Reserved </small>
-                </p>
-        </footer>
     </body>
 </html>
+<?php
+    include("footer.html");
+?>

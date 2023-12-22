@@ -13,7 +13,7 @@
   <div class="divheader">
     <header class="headercontainer">
         <label>
-            <a href="../html/index.html" target="_self" title="Hier kommen Sie zur Startseite" >
+            <a href="index.php" target="_self" title="Hier kommen Sie zur Startseite" >
                 Dragon Egg Emporium
             </a>
         </label>
@@ -29,7 +29,7 @@
 <section>
     
   <div class="register">
-    <form action="index.html">
+    <form action="index.php">
 
       <h1>Registrieren</h1>
       

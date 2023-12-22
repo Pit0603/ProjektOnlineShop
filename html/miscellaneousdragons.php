@@ -13,12 +13,12 @@
         <div class="divheader">
             <header class="headercontainer">
                 <label>
-                    <a href="../html/index.html" target="_self" title="Hier kommen Sie zur Startseite" >
+                    <a href="index.php" target="_self" title="Hier kommen Sie zur Startseite" >
                         Dragon Egg Emporium
                     </a>
                 </label>
                 <nav>
-                    <a href="../html/login.html" target="_self" title="Hier können Sie sich Anmelden" id="usernameText">
+                    <a href="login.php" target="_self" title="Hier können Sie sich Anmelden" id="usernameText">
                         <h2>Anmelden</h2>
                     </a>
                 </nav>
@@ -40,7 +40,7 @@
         
             <div class="mainBox">
                 <div class="mainBoxChild">
-                    <a href="../html/GalaxyDragon.html"
+                    <a href="GalaxyDragon.php"
                         target="_self"
                         title="GalaxyDragonEgg">
                         <img id="imgGalaxyDragonEgg" src= "../Bilder/GalaxyDragonEgg.png"
@@ -48,7 +48,7 @@
                         height="200">
                         </a>
                     <div>
-                        <a href="../html/GalaxyDragon.html"
+                        <a href="GalaxyDragon.php"
                         target="_self"
                         title="GalaxyDragonEgg">
                         <h3>GalaxyDragon Egg</h3>
@@ -61,7 +61,7 @@
             
             <div class="mainBox">
                 <div class="mainBoxChild">
-                    <a href="../html/EarthDragon.html"
+                    <a href="EarthDragon.php"
                         target="_self"
                         title="EarthDragon">
                         <img id="imgEarthDragonEgg" src= "../Bilder/EarthDragonEgg.png"
@@ -69,7 +69,7 @@
                         height="200">
                         </a>
                     <div>
-                        <a href="../html/EarthDragon.html"
+                        <a href="EarthDragon.php"
                         target="_self"
                         title="EarthDragon">
                         <h3>EarthDragon Egg</h3>
@@ -82,7 +82,7 @@
 
             <div class="mainBox">
                 <div class="mainBoxChild">
-                    <a href="../html/StoneDragon.html"
+                    <a href="StoneDragon.php"
                         target="_self"
                         title="StoneDragonEgg">
                         <img id="imgStoneDragonEgg" src= "../Bilder/StoneDragonEgg.png"
@@ -90,7 +90,7 @@
                         height="200">
                         </a>
                     <div>
-                        <a href="../html/StoneDragon.html"
+                        <a href="StoneDragon.php"
                         target="_self"
                         title="StoneDragonEgg">
                         <h3>StoneDragon Egg</h3>
@@ -103,7 +103,7 @@
 
             <div class="mainBox">
                 <div class="mainBoxChild">
-                    <a href="../html/EnderDragon.html"
+                    <a href="EnderDragon.php"
                         target="_self"
                         title="EnderDragonEgg">
                         <img id="imgEnderDragonEgg" src= "../Bilder/EnderDragonEgg.png"
@@ -111,7 +111,7 @@
                         height="200">
                         </a>
                     <div>
-                        <a href="../html/EnderDragon.html"
+                        <a href="EnderDragon.php"
                         target="_self"
                         title="EnderDragonEgg">
                         <h3>EnderDragon Egg</h3>
@@ -136,10 +136,10 @@
             </div>
             <h2>Rechtliches</h2>
             <ul>
-                <li><a href="../html/Impressum.html" target="_self" title="Hier kommen Sie zu unserem Impressum">Impressum</a><br></li>
-                <li><a href="../html/Datenschutz.html" target="_self" title="Hier kommen Sie zu unserer Datenschutzerklärung">Datenschutz</a><br></li>
-                <li><a href="../html/Barrierefreiheit.html" target="_self" title="Hier kommen sie zur Erklärung zur Barrierefreiheit">Barrierefreiheit</a><br></li>
-                <li><a href="../html/Kontakt.html" target="_self" title="Hier kommen Sie zu unseren Kontaktinformationen">Kontakt</a><br></li>
+                <li><a href="Impressum.php" target="_self" title="Hier kommen Sie zu unserem Impressum">Impressum</a><br></li>
+                <li><a href="Datenschutz.php" target="_self" title="Hier kommen Sie zu unserer Datenschutzerklärung">Datenschutz</a><br></li>
+                <li><a href="Barrierefreiheit.php" target="_self" title="Hier kommen sie zur Erklärung zur Barrierefreiheit">Barrierefreiheit</a><br></li>
+                <li><a href="Kontakt.php" target="_self" title="Hier kommen Sie zu unseren Kontaktinformationen">Kontakt</a><br></li>
             </ul>
                 <p>
                 Corvin, Mohamed, Pit<br>

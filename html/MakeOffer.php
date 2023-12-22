@@ -13,12 +13,12 @@
         <div class="divheader">
             <header class="headercontainer">
                 <label>
-                    <a href="../html/index.html" target="_self" title="Hier kommen Sie zur Startseite" >
+                    <a href="index.php" target="_self" title="Hier kommen Sie zur Startseite" >
                         Dragon Egg Emporium
                     </a>
                 </label>
                 <nav>
-                    <a href="../html/login.html" target="_self" title="Hier können Sie sich Anmelden" id="usernameText">
+                    <a href="login.php" target="_self" title="Hier können Sie sich Anmelden" id="usernameText">
                         <h2>Anmelden</h2>
                     </a>
                 </nav>
@@ -94,10 +94,10 @@
             </div>
             <h2>Rechtliches</h2>
                 <ul>
-                    <li><a href="Impressum.html" target="_self" title="Hier kommen Sie zu unserem Impressum">Impressum</a><br></li>
-                    <li><a href="Datenschutz.html" target="_self" title="Hier kommen Sie zu unserer Datenschutzerklärung">Datenschutz</a><br></li>
-                    <li><a href="Barrierefreiheit.html" target="_self" title="Hier kommen sie zur Erklärung zur Barrierefreiheit">Barrierefreiheit</a><br></li>
-                    <li><a href="Kontakt.html" target="_self" title="Hier kommen Sie zu unseren Kontaktinformationen">Kontakt</a><br></li>
+                    <li><a href="Impressum.php" target="_self" title="Hier kommen Sie zu unserem Impressum">Impressum</a><br></li>
+                    <li><a href="Datenschutz.php" target="_self" title="Hier kommen Sie zu unserer Datenschutzerklärung">Datenschutz</a><br></li>
+                    <li><a href="Barrierefreiheit.php" target="_self" title="Hier kommen sie zur Erklärung zur Barrierefreiheit">Barrierefreiheit</a><br></li>
+                    <li><a href="Kontakt.php" target="_self" title="Hier kommen Sie zu unseren Kontaktinformationen">Kontakt</a><br></li>
                 </ul>
                     <p>
                     Corvin, Mohamed, Pit<br>

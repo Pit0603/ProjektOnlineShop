@@ -15,7 +15,7 @@
   <div class="divheader">
     <header class="headercontainer">
         <label>
-            <a href="../html/index.html" target="_self" title="Hier kommen Sie zur Startseite" >
+            <a href="index.php" target="_self" title="Hier kommen Sie zur Startseite" >
                 Dragon Egg Emporium
             </a>
         </label>
@@ -30,7 +30,7 @@
 
   <section>
     <div class="login">
-        <form action="index.html">
+        <form action="index.php">
             <h1>Anmelden</h1>
             <div class="input-box">
                 <input type="text" id="username" placeholder="Nutzername" required>
@@ -43,12 +43,12 @@
           
             <div class="remember-forgot">
                 <label><input type="checkbox">Remember Me</label>
-                <a href="forgotpwd.html">Passwort vergessen</a>
+                <a href="forgotpwd.php">Passwort vergessen</a>
             </div>
             <!-- Hinzugefügtes ID-Attribut für den Anmelde-Button -->
             <button type="submit" class="btn" id="loginButton" onclick="login()">Anmelden</button>
             <div class="register-link">
-                <p>Haben Sie kein Konto? <a href="register.html"> Registrieren</a></p>
+                <p>Haben Sie kein Konto? <a href="register.php"> Registrieren</a></p>
             </div>
         </form>
     </div>
