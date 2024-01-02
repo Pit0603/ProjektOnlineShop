@@ -100,14 +100,21 @@ main{
 }
 
 .table__header{
- background-color: black;
+ 
+ background-color: #ffeeb3;
+  text-shadow: 0 0 0.6em orange;
   text-align: center;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+.table__header h1{
+  
+  color:black;
+}
 .table__header h2{
   font-size: 20px;
+  color:black;
 }
 table{
   width:100%;
