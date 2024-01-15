@@ -26,9 +26,10 @@
             <h1>Startseite</h1>
         
             <section>
-                <div class="mainBoxChild">
+                <div class="mainBoxChild" tabindex="0">
                     <a href="hotdragons.php"
-                        target="_self"
+                        target="_self" 
+                        tabindex="-1"
                         title="Hot Dragons">
                         <img id="imgHotDragons" src= "../Bilder/HotDragonEggs.png"
                         alt="This is a picture of a Fire-Dragon Egg"
@@ -37,6 +38,7 @@
                     <div>
                         <a href="hotdragons.php"
                         target="_self"
+                        tabindex="-1"
                         title="Hot Dragons">
                         <h2 id="H2HotDragons">Hot Dragons</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
@@ -47,9 +49,10 @@
             </section>
            
             <section>
-                <div class="mainBoxChild">
+                <div class="mainBoxChild" tabindex="0">
                     <a href="cooldragons.php"
                         target="_self"
+                        tabindex="-1"
                         title="Cool Dragons">
                         <img id="imgCoolDragons" src= "../Bilder/CoolDragonEggs.png"
                         alt="This is a picture of an Ice-Dragon Egg"
@@ -58,6 +61,7 @@
                     <div>
                         <a href="cooldragons.php"
                         target="_self"
+                        tabindex="-1"
                         title="Cool Dragons">
                         <h2 id="H2CoolDragons">Cool Dragons</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
@@ -68,9 +72,10 @@
             </section>
             
             <section>
-                <div class="mainBoxChild">
+                <div class="mainBoxChild" tabindex="0">
                     <a href="miscellaneousdragons.php"
                         target="_self"
+                        tabindex="-1"
                         title="Miscellaneous Dragons">
                         <img id="imgMiscellaneousDragons" src= "../Bilder/MiscellaneousDragonEggs.png"
                         alt="This is a picture of an Earth-Dragon Egg"
@@ -79,6 +84,7 @@
                     <div>
                         <a href="miscellaneousdragons.php"
                         target="_self"
+                        tabindex="-1"
                         title="Miscellaneous Dragons">
                         <h2 id="H2MiscellaneousDragons">Miscellaneous Dragons</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,

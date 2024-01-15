@@ -41,7 +41,7 @@
 
             <div id="divbutton">
                 <a href="MakeOffer.php">
-                    <button class="fantasy">
+                    <button class="fantasy" tabindex="-1">
                     <span class="double">
                      <span class="text">Angebot machen</span>
                     </span>
