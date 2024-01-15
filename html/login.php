@@ -10,22 +10,10 @@
         <link rel="icon" type="image/png" href="../Icons/DragonIcon.png"> 
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel='stylesheet' href='../css/stylelogin.css'>
-        <script src="/JavaScript/login_script.js" defer></script>
+        <script src="../JavaScript/login_script.js" defer></script>
     </head>
     
 <body>
-
-  <div class="divheader">
-    <header class="headercontainer">
-        <label>
-            <a href="index.php" target="_self" title="Hier kommen Sie zur Startseite" >
-                Dragon Egg Emporium
-            </a>
-        </label>
-      
-    </header>
-    <hr>
-</div>
 
   <video autoplay loop muted class="background-clip">
     <source src="../Video/Background2.mp4" type="video/mp4">
@@ -51,7 +39,7 @@
             <!-- Hinzugefügtes ID-Attribut für den Anmelde-Button -->
             <button type="submit" class="btn" id="loginButton" onclick="login()">Anmelden</button>
             <div class="register-link">
-                <p>Haben Sie kein Konto? <a href="register.php"> Registrieren</a></p>
+                <p>Haben Sie kein Konto? &nbsp;<a href="register.php"> Registrieren</a></p>
             </div>
         </form>
     </div>

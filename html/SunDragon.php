@@ -8,16 +8,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="../Icons/DragonIcon.png">
         <title>Dragon Egg Emporium</title>
-        <link rel="stylesheet" href="../css/style.css">
-        <script src="/JavaScript/login_script.js" defer></script>
+        <link rel="stylesheet" href="../css/styleSunDragonEgg.css">
+        <script src="../JavaScript/login_script.js" defer></script>
     </head>
 
     <body>
         
 
         <video autoplay muted loop>
-            <source src="../Video/Fire.mp4" type="video/mp4">
-            <!-- Füge hier weitere Source-Tags hinzu, um unterschiedliche Videoformate zu unterstützen -->
+            <source src="../Video/SunBackground.mp4" type="video/mp4">
             Dein Browser unterstützt das Video-Tag nicht.
         </video>
 
@@ -26,7 +25,7 @@
         <div class="FireDragonSeite">
             <img
             src="../Bilder/SunDragonEggFrame.png"
-            alt="This is a picture of a Sun-Dragon Egg"
+            alt="This is a picture of a Sun-Dragon-Egg"
             title="This is a picture of a Sun-Dragon-Egg"
             height="500" width="500">
                 <div>
@@ -45,16 +44,13 @@
                     </span>
                    </button>
             </div>          
-        <!--<audio autoplay>
-            <source src="Audio/DragonSound.mp3" type="Audio/mp3">
-            <source src="Audio/DragonSound.wav" type="Audio/wav">
-        </audio>-->
-        
-    </main>
-
+       
+        </main>
         
     </body>
+
 </html>
+
 <?php
     include("footer.html");
 ?>

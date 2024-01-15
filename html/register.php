@@ -8,22 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../Icons/DragonIcon.png">
     <title>Dragon Egg Emporium</title>
-    <link rel="stylesheet" href="../css/styleregister.css">
+    <link rel="stylesheet" href="../css/styleregister2.css">
 </head>
 
 <body>
-
-  <div class="divheader">
-    <header class="headercontainer">
-        <label>
-            <a href="index.php" target="_self" title="Hier kommen Sie zur Startseite" >
-                Dragon Egg Emporium
-            </a>
-        </label>
-      
-    </header>
-    <hr>
-</div>
 
   <video autoplay loop muted class="background-clip">
     <source src="../Video/Background2.mp4" type="video/mp4">

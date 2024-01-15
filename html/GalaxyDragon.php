@@ -8,21 +8,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="../Icons/DragonIcon.png">
         <title>Dragon Egg Emporium</title>
-        <link rel="stylesheet" href="../css/style.css">
-        <script src="/JavaScript/login_script.js" defer></script>
+        <link rel="stylesheet" href="../css/styleGalaxyDragonEgg.css">
+        <script src="../JavaScript/login_script.js" defer></script>
     </head>
 
     <body>
+
+    <video autoplay muted loop>
+            <source src="../Video/GalaxyBackground.mp4" type="video/mp4" alt="This is a backround video">
+            Dein Browser unterstützt das Video-Tag nicht.
+    </video>
         
     <main>
-            <h1>Galaxy-Dragon-Egg</h1>
-
-            <img src="Bilder/GalaxyDragonEgg.png"
-            alt="This is a picture of an Galaxy-Dragon Egg"
-            height="300">
-            <br>
-
-            
+        <div class="GalaxyDragonSeite">
+            <img
+            src="../Bilder/GalaxyDragonEggFrame.png"
+            alt="This is a picture of a Galaxy-Dragon Egg"
+            title="This is a picture of a Galaxy-Dragon-Egg"
+            height="500" width="500">
+                <div>
+                    <h1>Galaxy-Dragon-Egg</h1>
+        
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, doloremque harum error aperiam, 
+                        voluptatibus nesciunt odit doloribus ipsa labore quidem soluta quam ea voluptatum dolorem in veniam quisquam perferendis commodi.
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eum quos corrupti quis ad culpa quasi nesciunt sapiente delectus ipsam blanditiis,
+                          deleniti tempore cupiditate non exercitationem harum facere magni neque.</p>
+                </div>
+            </div>
+            <div id="divbutton">
+                <button class="fantasy">
+                    <span class="double">
+                     <span class="text">Angebot machen</span>
+                    </span>
+                   </button>
+            </div>
     </main>
         
     </body>

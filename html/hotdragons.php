@@ -9,7 +9,7 @@
         <link rel="icon" type="image/png" href="../Icons/DragonIcon.png">
         <title>Dragon Egg Emporium</title>
         <link rel="stylesheet" href="../css/styleHotDragons.css">
-        <script src="/JavaScript/login_script.js" defer></script>
+        <script src="../JavaScript/login_script.js" defer></script>
     </head>
 
     <body>

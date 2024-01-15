@@ -90,6 +90,9 @@ main a{
     color: #ffeeb3;
     text-shadow: 0 0 0.6em orange;
 }
+main p{
+    color: black;
+}
 main a:visited{
     color: #ffeeb3
 }
@@ -124,7 +127,7 @@ main h2{
     margin: auto;
     width: 450px;
     text-align: center;
-    color: #f5f5f5;
+    color: orange;
     text-shadow: 0px -2px 4px #fff,
                  0px -2px 10px #FF3,
                  0px -10px 20px #F90,
@@ -133,6 +136,7 @@ main h2{
 .FireDragonSeite p{
     margin: auto;
     margin-left: 2%;
+    color: #000;
 }
 #divbutton{
     display: flex;

@@ -114,6 +114,9 @@ main h2{
     z-index: 2;
     margin-bottom: 2%;
 }
+main p{
+    color: #ffeeb3;
+}
 .FireDragonSeite{
     display: flex;
     margin-top: 5%;

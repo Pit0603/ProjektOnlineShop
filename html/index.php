@@ -23,7 +23,7 @@
     <main>
 
         <article>
-            <h1>Startseite1</h1>
+            <h1>Startseite</h1>
         
             <section>
                 <div class="mainBoxChild">
@@ -90,7 +90,9 @@
         </article>
 
     </main>
+
     </body>
+
 </html>
 <?php
     include("footer.html");
