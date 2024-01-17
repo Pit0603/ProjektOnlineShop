@@ -14,39 +14,41 @@
 
     <body>
         
-        <main>
-            <h1>Barrierefreiheit</h1>
-            <p><br>
-                <b>Erklärung zur Barrierefreiheit</b>
-            </p><br>
-                <p>
-                Die Inhaber dieser Website bemühen sich, die Website [Dragon Egg Emporium](index.php) barrierefreizugänglich zu machen. Rechtsgrundlage sind das Landesgesetz zur Gleichstellung behinderter Menschen (LGGBehM) und die Barrierefreie-Informationstechnik-Verordnung Rheinland-Pfalz (BITV RP). Um diese Zielsetzung zu erreichen, wurden folgende Maßnahmen zur Umsetzung der Barrierefreiheit ergriffen:
+    <main>
+    <h1>Barrierefreiheit</h1>
+    <p><strong>Erklärung zur Barrierefreiheit</strong></p>
+    <p>Die Inhaber der Website Dragon Egg Emporium setzen sich aktiv für die barrierefreie Zugänglichkeit ihrer Online-Präsenz ein. Diese Bemühungen gründen sich auf das Landesgesetz zur Gleichstellung behinderter Menschen (LGGBehM) sowie die Barrierefreie-Informationstechnik-Verordnung Rheinland-Pfalz (BITV RP). Zur Verwirklichung dieses wichtigen Anliegens wurden verschiedene Maßnahmen umgesetzt:</p>
 
-                <br><br>1. **Navigieren durch Tabindex**: 
-                <br> Die Navigation auf der Website wurde so optimiert, dass Benutzer mit Hilfe der Tabulatortaste (Tab) durch alle interaktiven Elemente der Seite navigieren können. Dies erleichtert Personen mit motorischen Einschränkungen oder Nutzern, die keine Maus verwenden können, die Bedienung der Webseite.
+<br>
 
-                <br><br>2. **Einfache Texte für besseres Verständnis**: 
-                <br>Die Inhalte der Website wurden in einfacher und klarer Sprache verfasst. Dies hilft nicht nur Menschen mit Lernschwierigkeiten oder kognitiven Beeinträchtigungen, sondern macht die Informationen auch für alle Nutzer leichter verständlich.
+    <ul>
+        <li><strong>Navigieren durch Tabindex:</strong> Die Navigation auf der Website ist so gestaltet, dass sie mittels Tabulatortaste durch alle interaktiven Elemente führt, was insbesondere Personen mit motorischen Einschränkungen zugutekommt.</li>
 
-                <br><br>3. **Link- und Bildtexte**: 
-                <br>Alle Links und Bilder auf der Website wurden mit beschreibenden Texten versehen. Bei den Links wird darauf geachtet, dass der Zweck des Links aus dem Text hervorgeht. Bilder werden durch alternative Texte (Alt-Texte) ergänzt, welche den Inhalt und Zweck der Bilder beschreiben. Diese Maßnahmen unterstützen Nutzer, die Screenreader verwenden, sowie jene, die aus verschiedenen Gründen keine Bilder sehen können oder wollen.
+        <li><strong>Einfache Texte für besseres Verständnis:</strong> Die Inhalte sind bewusst in einfacher und klarer Sprache gehalten, um allen Nutzern den Zugang zu Informationen zu erleichtern.</li>
 
-                <br><br>4. **Screenreader-Kompatibilität**: 
-                <br>Die Website wurde für die Verwendung mit Screenreadern optimiert. Dies bedeutet, dass alle Inhalte und Navigationselemente so strukturiert sind, dass sie von Screenreadern korrekt erfasst und wiedergegeben werden können. Dadurch wird Menschen mit Sehbehinderungen der Zugang zu den Informationen der Website erleichtert.
+        <li><strong>Link- und Bildtexte:</strong> Sämtliche Links und Bilder sind mit beschreibenden Texten versehen, um die Benutzung durch Screenreader zu unterstützen und auch bei fehlender Bildanzeige Orientierung zu bieten.</li>
 
-                <br>Durch diese Maßnahmen stellt die Website [Dragon Egg Emporium](index.php) sicher, dass sie für eine breite Palette von Benutzern, unabhängig von ihren körperlichen oder kognitiven Fähigkeiten, zugänglich und nutzbar ist.<br>
-                <br>
-                Diese Erklärung wurde am 11.11.2023 erstellt.
-                </p>
-            <p><br>
-                <b>Feedback und Kontakt</b>
-            </p><br>
-                <p>
-                Sollten Ihnen Mängel in Bezug auf die barrierefreie Gestaltung von unser Webseite auffallen, können Sie per Mail jederzeit mit uns in Verbindung treten.
-                <br>
-                <br>
-                E-Mail: webteam@gmail.com
-                </p>
+        <li><strong>Screenreader-Kompatibilität:</strong> Die gesamte Website-Struktur ist für die Nutzung mit Screenreadern optimiert, um Menschen mit Sehbehinderungen einen barrierefreien Zugang zu ermöglichen.</li>
+
+        <li><strong>Farbschema:</strong> Das kontrastreiche Farbschema in Schwarz, Gelb, Weiß und Grau berücksichtigt die Bedürfnisse von Nutzern mit Farbsehschwächen.</li>
+
+        <li><strong>Barrierefreiheit für taube Menschen:</strong> Abgesehen von Hintergrundvideos wird auf Einsatz von Audio- oder Videomaterial verzichtet, um die Inhalte für taube oder schwerhörige Menschen vollständig zugänglich zu machen.</li>
+
+        <li><strong>Große Buttons:</strong> Die groß gestalteten Bedienelemente erleichtern die Navigation, insbesondere für Nutzer mit motorischen Einschränkungen.</li>
+
+        <li><strong>Bedienbarkeit mit der Tab-Taste:</strong> Die vollständige Navigierbarkeit der Webseite über die Tab-Taste verbessert die Zugänglichkeit für eine Vielzahl von Nutzern.</li>
+
+        <li><strong>Verzicht auf zeitbeschränkte Pop-ups:</strong> Um die Nutzerfreundlichkeit zu maximieren, werden keine zeitkritischen Interaktionen wie zeitbeschränkte Pop-ups verwendet.</li>
+
+        <li><strong>Wahrnehmbarkeit:</strong> Alle Bilder sind mit Alt-Texten ausgestattet, die eine alternative Beschreibung bieten, falls die Bilder nicht geladen werden können.</li>
+    </ul>
+
+    <p>Durch diese Maßnahmen stellt die Website Dragon Egg Emporium sicher, dass sie für eine breite Palette von Benutzern zugänglich und nutzbar ist. Diese Erklärung zur Barrierefreiheit wurde am 11.11.2023 erstellt.</p>
+<br>
+    <p><strong>Feedback und Kontakt</strong></p>
+    <p>Sollten Ihnen Mängel in Bezug auf die barrierefreie Gestaltung unserer Webseite auffallen, können Sie uns gerne per E-Mail kontaktieren: <a href="mailto:webteam@gmail.com">webteam@gmail.com</a>.</p>
+</main>
+
     
         </main>
             
