@@ -162,7 +162,7 @@ main h2{
 .mainBoxChild div{
     margin-left: 1%;
     padding: 2%;
-    background-color: transparent;
+    background-color: black;
     backdrop-filter: blur(1em);
     border-radius: 1em;
 }
