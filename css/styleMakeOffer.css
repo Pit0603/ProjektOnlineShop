@@ -88,7 +88,7 @@ main{
     align-items: center;
     margin-top: 10%;
   }
-  h1{
+  .MakeOffer h1{
     font-size: 28px;
     text-align: center;
     color: #fff;
@@ -123,9 +123,9 @@ main{
     font-size: 16px;
     color: #333;
     font-weight: 600;
-    position:fixed;
+    position:relative;
     left: 80px;
-    bottom: 35px;
+    bottom: 0px;
   }
 .footercontainer{
     background-color: black;
