@@ -24,10 +24,10 @@
 
     <main>
 
-        <div class="containerProdukte">
+        <article>
             <h1>Miscellaneous Category</h1>
         
-            <div class="mainBox">
+            <section>
                     <a href="GalaxyDragon.php"
                         target="_self"
                         tabindex="0"
@@ -47,9 +47,9 @@
                 </div>
                     </a>
 
-            </div>
-            
-            <div class="mainBox">
+            </section>
+           
+            <section>
                     <a href="EarthDragon.php"
                         target="_self"
                         tabindex="0"
@@ -69,9 +69,9 @@
                 </div>
                     </a>
 
-            </div>
-
-            <div class="mainBox">
+            </section>
+           
+            <section>
                     <a href="StoneDragon.php"
                         target="_self"
                         tabindex="0"
@@ -91,9 +91,9 @@
                 </div>
                 </a>
 
-            </div>
-
-            <div class="mainBox">
+            </section>
+           
+            <section>
                     <a href="EnderDragon.php"
                         target="_self"
                         tabindex="0"

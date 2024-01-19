@@ -157,7 +157,7 @@ main h2{
     font-size: large;
     text-shadow: 3px 3px #3F3F3F;
 }
-.containerProdukte{
+article{
     display: flex;
     flex-direction: column;
     z-index: 1;
@@ -165,7 +165,7 @@ main h2{
     margin-right: 10%;
     margin-bottom: 10%;
 }
-.mainBox{
+section{
     /*position: relative;*/
     z-index: 1;
     margin-bottom: 2em;

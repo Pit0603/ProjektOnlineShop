@@ -21,10 +21,10 @@
 
     <main>
 
-        <div class="containerProdukte">
+        <article>
             <h1>Hot Dragons</h1>
         
-            <div class="mainBox">
+            <section>
                     <a href="FireDragon.php"
                         target="_self"
                         tabindex="0"
@@ -43,9 +43,9 @@
                 </div>
                     </a>
 
-            </div>
-            
-            <div class="mainBox">
+            </section>
+           
+            <section>
                     <a href="LavaDragon.php"
                         target="_self"
                         tabindex="0"
@@ -65,9 +65,9 @@
                 </div> 
                     </a>
 
-            </div>
-            
-            <div class="mainBox">
+            </section>
+           
+            <section>
                     <a href="SunDragon.php"
                         target="_self"
                         tabindex="0"

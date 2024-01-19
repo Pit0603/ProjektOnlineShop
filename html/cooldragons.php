@@ -23,10 +23,10 @@
 
     <main>
 
-        <div class="containerProdukte">
+        <article>
             <h1>Cool Dragons</h1>
         
-            <div class="mainBox">
+            <section>
                     <a href="IceDragon.php"
                         target="_self"
                         tabindex="0"
@@ -45,9 +45,9 @@
                 </div>
                     </a>
 
-            </div>
-            
-            <div class="mainBox">
+            </section>
+           
+            <section>
                     <a href="WaterDragon.php"
                         target="_self"
                         tabindex="0"

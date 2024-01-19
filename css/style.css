@@ -147,7 +147,7 @@ main h2{
     margin-bottom: 5%;
     z-index: 1;
 }
-.containerProdukte{
+article{
     display: flex;
     flex-direction: column;
     z-index: 1;
@@ -155,7 +155,7 @@ main h2{
     margin-right: 10%;
     margin-bottom: 10%;
 }
-.mainBox{
+section{
     /*position: relative;*/
     border-style: ridge;
     border-color: grey;
