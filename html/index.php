@@ -33,8 +33,8 @@
                    damit wir Verbesserungen vornehmen können.<a href="#"> Mehr lesen...</a></p>
             </div>
             <div class="buttons">
-              <button class="button" id="acceptBtn" title="Akzeptieren sie unsere Cookie-Richtlinien">Accept</button>
-              <button class="button" id="declineBtn" title="Lehnen sie unsere Cookie-Richtlinien ab">Decline</button>
+              <button class="button" id="acceptBtn" title="Akzeptieren sie unsere Cookie-Richtlinien">Akzeptieren</button>
+              <button class="button" id="declineBtn" title="Lehnen sie unsere Cookie-Richtlinien ab">Ablehnen</button>
             </div>
           </div>
       

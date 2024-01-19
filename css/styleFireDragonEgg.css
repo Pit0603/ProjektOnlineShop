@@ -147,6 +147,8 @@ main p{
     margin-right: 2%;
 }
 .FireDragonSeite p::first-letter{
+    margin-top: 0px;
+    padding-top: 0px;
     font-size: 5em;
     float: left;
     padding-right: 2%;
