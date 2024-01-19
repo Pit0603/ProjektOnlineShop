@@ -155,7 +155,7 @@ main h2{
 #H2MiscellaneousDragons{
     color: lightgray;
 }
-.containerProdukte{
+article{
     display: flex;
     flex-direction: column;
     z-index: 1;
@@ -163,7 +163,7 @@ main h2{
     margin-right: 10%;
     margin-bottom: 10%;
 }
-.mainBox{
+section{
     /*position: relative;*/
     z-index: 1;
     margin-bottom: 2em;
