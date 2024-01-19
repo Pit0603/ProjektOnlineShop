@@ -83,30 +83,27 @@ video{
   object-fit: cover;
 }
 main{
-  padding-top: 20em;
+  /**/
+}
+article{
+  padding-top: 10em;
   margin-bottom: 5%;
   margin-left: 5%;
   margin-right: 5%;
   z-index: 1;
-  background: transparent;
   border: none;
-  border-radius: 20px;
-  backdrop-filter: blur(15px) brightness(80%);
   
-  justify-content: center;
-  align-items: center;
-  
+  justify-content: space-between;
   
 }
 
 .table__header{
- 
- background-color: #ffeeb3;
+  background-color: #ffeeb3;
   text-shadow: 0 0 0.6em orange;
   text-align: center;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
-
+  border-radius: 1em;
 }
 .table__header h1{
   
@@ -115,6 +112,12 @@ main{
 .table__header h2{
   font-size: 20px;
   color:black;
+}
+.table__body{
+  background-color: transparent;
+  backdrop-filter: blur(15px) brightness(80%);
+  padding: 5%;
+  border-radius: 1em;
 }
 table{
   width:100%;

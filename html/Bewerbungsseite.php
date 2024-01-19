@@ -20,6 +20,7 @@
          
         <main>
         
+        <article>
 
           <section class="table__header">
             <h1>Aktuelle Stellenangebote</h1>
@@ -67,6 +68,8 @@
                 </tbody>
             </table>
         </section>
+
+        </article>
 
       </main>
          

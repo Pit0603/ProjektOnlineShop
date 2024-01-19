@@ -21,16 +21,20 @@
         </video>
 
         <div class="cookie" id="cookiesBanner">
-            <header>
+            <!--<header>
               <i class="bx bx-cookie"></i>
-              <h2>Cookies Consent</h2>
-            </header>
+              <h3>Wir nutzen Cookies...</h3>
+            </header>-->
             <div class="data">
-              <p>This website use cookies to help you have a superior and more relevant browsing experience on the website. <a href="#"> Read more...</a></p>
+            <h3>Wir nutzen Cookies...</h3>
+              <p>Wir verwenden Cookies und ähnliche Tools, die erforderlich sind, um dir das Tätigen von Einkäufen zu ermöglichen,
+                 dein Einkaufserlebnis zu verbessern und unsere Dienste bereitzustellen, wie in unserem Cookie-Hinweis beschrieben.
+                  Wir verwenden diese Cookies auch, um zu verstehen, wie Kunden unsere Dienste nutzen (z. B. durch Messung der Websiteaufrufe),
+                   damit wir Verbesserungen vornehmen können.<a href="#"> Mehr lesen...</a></p>
             </div>
             <div class="buttons">
-              <button class="button" id="acceptBtn">Accept</button>
-              <button class="button" id="declineBtn">Decline</button>
+              <button class="button" id="acceptBtn" title="Akzeptieren sie unsere Cookie-Richtlinien">Accept</button>
+              <button class="button" id="declineBtn" title="Lehnen sie unsere Cookie-Richtlinien ab">Decline</button>
             </div>
           </div>
       
