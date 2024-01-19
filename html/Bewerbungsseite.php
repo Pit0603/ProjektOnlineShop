@@ -46,7 +46,7 @@
                         <td>Dieb</td>
                        
                         
-                        <td><a href="personaldata.php"> bewerben</a></td>
+                        <td><a href="personaldata.php" title="Hier als Dieb bewerben"> bewerben</a></td>
                         
                     </tr>
                     
@@ -54,14 +54,14 @@
                         <td>Züchter</td>
                        
                         
-                        <td><a href="personaldata.php"> bewerben</a></td>
+                        <td><a href="personaldata.php" title="Hier als Züchter bewerben"> bewerben</a></td>
                        
                     </tr>
                     <tr>
                         <td>Kurier</td>
                         
                         
-                        <td><a href="personaldata.php"> bewerben</a></td>
+                        <td><a href="personaldata.php" title="Hier als Kurier bewerben"> bewerben</a></td>
                         
                     </tr>
                     

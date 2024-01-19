@@ -28,7 +28,7 @@
                 <i class='bx bxs-user'></i>
             </div>
             <div class="input-box">
-                <input type="password" id="password" title="Bitte geben sie Ihr Passwort Vornamen ein" placeholder="Passwort" required>
+                <input type="password" id="password" title="Bitte geben sie Ihr Passwort ein" placeholder="Passwort" required>
                 <i class='bx bxs-lock-alt' ></i>
             </div>
           

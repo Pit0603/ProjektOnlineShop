@@ -56,13 +56,17 @@
 
             <div id="divbutton">
                 <form action="MakeOffer.php">
-                    <button type="submit" class="fantasy">
+                    <button type="submit" class="fantasy" title="Make an offer">
                         <span class="double">
                             <span class="text">Angebot machen</span>
                         </span>
                     </button>
                 </form>
             </div>    
+                        </span>
+                    </button>
+                </form>
+            </div>
             
        
     </main>
