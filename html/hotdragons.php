@@ -33,7 +33,7 @@
                         <img id="imgFireDragon" src= "../Bilder/FireDragonEgg.png"
                         alt="This is a picture of a Fire-Dragon Egg"
                         height="200">
-                    <div>
+                    <div id="divFire">
                         <h2>FireDragon Egg</h2>
                         <p>Erleben Sie die Hitze mit unseren brandneuen Feuerdrachen, die Ihnen den Atem rauben werden!
                              Unsere Drachen sind aus hochwertigen Materialien gefertigt und bieten eine hervorragende Wärme an kalten Tagen.
@@ -55,7 +55,7 @@
                         <img id="imgLavaDragon" src= "../Bilder/LavaDragonEgg.png"
                         alt="This is a picture of a Lava-Dragon Egg"
                         height="200">
-                    <div>
+                    <div id="divLava">
                         <h2>LavaDragon Egg</h2>
                         <p>Erleben Sie die Hitze mit unseren brandneuen Lavadrachen, die Ihnen den Atem rauben werden!
                              Unsere Drachen sind aus hochwertigen Materialien gefertigt und bieten eine hervorragende Wärme an kalten Tagen.
@@ -77,7 +77,7 @@
                         <img id="imgSunDragon" src= "../Bilder/SunDragonEgg.png"
                         alt="This is a picture of a Sun-Dragon Egg"
                         height="200">
-                    <div>
+                    <div id="divSun">
                         <h2>SunDragon Egg</h2>
                         <p>Erleben Sie den Sommer auf eine neue Art und Weise mit unserem Sonnendrachen!
                              Der Drachen ist aus hochwertigen Materialien hergestellt und verfügt über einzigartige Designs,
