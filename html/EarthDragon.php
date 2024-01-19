@@ -23,8 +23,8 @@
     <div class="FireDragonSeite">
             <img
             src="../Bilder/EarthDragonEggFrame.png"
-            alt="This is a picture of a Galaxy-Dragon Egg"
-            title="This is a picture of a Galaxy-Dragon-Egg"
+            alt="This is a picture of an Earth-Dragon Egg"
+            title="This is a picture of a Earth-Dragon-Egg"
             height="500" width="500">
                 <div>
                     <h1>Earth-Dragon-Egg</h1>

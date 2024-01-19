@@ -1,4 +1,4 @@
-<?php
+w<?php
     include("header.html");
 ?>
 <!DOCTYPE html>
@@ -21,7 +21,7 @@
 
     <main>
 
-        <div class="containerProdukte"> 
+        <div class="containerProdukte">
             <h1>Hot Dragons</h1>
         
             <div class="mainBox">

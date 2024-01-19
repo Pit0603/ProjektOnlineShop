@@ -26,8 +26,8 @@
         <div class="FireDragonSeite">
             <img
             src="../Bilder/IceDragonEggFrame.png"
-            alt="This is a picture of a Fire-Dragon Egg"
-            title="This is a picture of a Fire-Dragon-Egg"
+            alt="This is a picture of a Ice-Dragon Egg"
+            title="This is a picture of a Ice-Dragon-Egg"
             height="500" width="500">
                 <div>
                     <h1>Ice-Dragon-Egg</h1>
