@@ -46,7 +46,7 @@
     <p>Durch diese Maßnahmen stellt die Website Dragon Egg Emporium sicher, dass sie für eine breite Palette von Benutzern zugänglich und nutzbar ist. Diese Erklärung zur Barrierefreiheit wurde am 11.11.2023 erstellt.</p>
 <br>
     <p><strong>Feedback und Kontakt</strong></p>
-    <p>Sollten Ihnen Mängel in Bezug auf die barrierefreie Gestaltung unserer Webseite auffallen, können Sie uns gerne per E-Mail kontaktieren: <a href="mailto:webteam@gmail.com">webteam@gmail.com</a>.</p>
+    <p>Sollten Ihnen Mängel in Bezug auf die barrierefreie Gestaltung unserer Webseite auffallen, können Sie uns gerne per E-Mail kontaktieren: <a href="mailto:webteam@dragonemporium.com">webteam@dragonemporium.com</a>.</p>
 </main>
 
     

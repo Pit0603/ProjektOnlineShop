@@ -30,7 +30,7 @@
                         Corvin Zumpe, Mohamed Widadi und Pit Dahlem<br>
                         54296 Trier<br>
                         Deutschland<br>
-                        E-Mail: datenschutz@dragoneggemporium.com<br>
+                        E-Mail: <a href="mailto:datenschutz@dragonemporium.com">datenschutz@dragonemporium.com</a><br>
                         Tel.: 0123 4567<br>
                         </dd>
                     <dt>&#8545;. Allgemeines</dt>

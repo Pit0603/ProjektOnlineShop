@@ -8,24 +8,55 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="../Icons/DragonIcon.png">
         <title>Dragon Egg Emporium</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/styleStoneDragonEgg.css">
         <script src="../JavaScript/login_script.js" defer></script>
     </head>
 
     <body>
+
+    <video autoplay muted loop>
+            <source src="../Video/StoneBackground.mp4" type="video/mp4" alt="This is a backround video">
+            Dein Browser unterstützt das Video-Tag nicht.
+    </video>
         
     <main>
-            <h1>Stone-Dragon-Egg</h1>
+        <div class="FireDragonSeite">
+            <img
+            src="../Bilder/StoneDragonEggFrame.png"
+            alt="This is a picture of a Stone-Dragon Egg"
+            title="This is a picture of a Stone-Dragon-Egg"
+            height="500" width="500">
+                <div>
+                    <h1>Stone-Dragon-Egg</h1>
+        
+                    <p>Ein Steindrache ist ein mythisches Wesen, das in vielen Kulturen vorkommt.
+                         Es ist ein Drache, der Feuer speien kann und oft als gefährlich und mächtig dargestellt wird.
+                          In vielen Geschichten und Legenden wird der Feuerdrache als eine Art Wächter oder Beschützer dargestellt,
+                           der seine Macht einsetzt, um diejenigen zu verteidigen, die er beschützt.<br>
 
-            <img src="Bilder/StoneDragonEgg.jpeg"
-            alt="This is a picture of an Stone-Dragon Egg"
-            height="300">
-            <br>
+                    Ein Feuerdrache hat normalerweise eine rote oder orange Farbe, die an das Feuer erinnert,
+                     das er speit. Seine Schuppen sind hart und widerstandsfähig, um ihn vor Angriffen zu schützen.
+                      Seine Augen sind oft gelb oder rot und leuchten im Dunkeln.<br>
 
-            
-            
-        </main>
+                    In vielen Geschichten wird der Feuerdrache als eine Art Kreatur dargestellt,
+                     die in einer Höhle oder einem Berg lebt. Er bewacht oft einen Schatz oder ein Artefakt,
+                      das von großer Bedeutung ist. In anderen Geschichten wird der Feuerdrache als eine Art Kreatur dargestellt,
+                       die in einem Wald oder einer Wüste lebt und diejenigen angreift, die ihm zu nahe kommen.<br>
 
+                       Erleben Sie die Hitze mit unseren brandneuen Steindrachen, die Ihnen den Atem rauben werden!
+                        Unsere Drachen sind aus hochwertigen Materialien gefertigt und bieten eine hervorragende Wärme an kalten Tagen.
+                         Mit einer Vielzahl von Farben und Designs zur Auswahl, ist für jeden Geschmack etwas dabei.
+                          Bestellen Sie jetzt und erhalten Sie 10% Rabatt auf Ihre erste Bestellung!</p>
+                </div>
+            </div>
+            <div id="divbutton">
+                <button class="fantasy">
+                    <span class="double">
+                     <span class="text">Angebot machen</span>
+                    </span>
+                   </button>
+            </div>
+    </main>
         
     </body>
 </html>

@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Ringbearer';
     src: url(../Fonts/RINGM___.TTF);
@@ -14,7 +15,7 @@
 }
 html{
     font-family: 'Martel', Arial;
-    color: #aaa;
+    color: whitesmoke;
 }
 html hr{
     border-color: #ffeeb3;
@@ -113,33 +114,54 @@ main h2{
     z-index: 2;
     margin-bottom: 2%;
 }
-.WaterDragonSeite{
+main p{
+    color: #ffeeb3;
+}
+.FireDragonSeite{
     display: flex;
     margin-top: 5%;
 }
-.WaterDragonSeite img{
+.FireDragonSeite img{
     float: left;
 }
-.WaterDragonSeite h1{
-    margin: auto;
-    width: 420px;
-    text-align: center;
-    color: #f5f5f5;
-    text-shadow: 0px -2px 4px #fff,
-                 0px -2px 10px #FF3,
-                 0px -10px 20px #F90,
-                 0px -20px 40px #C33;
+.FireDragonSeite div{
+    padding-top: 1em;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.8);
 }
-.WaterDragonSeite p{
+.FireDragonSeite h1{
+    margin: auto;
+    width: 450px;
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Martel', Arial;
+    color: turquoise;
+    text-shadow: 0 -0.125em 0.25em #fff,
+                 0 -0.125em 0.625em lightblue,
+                 0 -0.625em 1.25em blue,
+                 0 -1.25em 2.5em darkblue;
+}
+.FireDragonSeite p{
+    font-style: italic;
+    color: whitesmoke;
     margin: auto;
     margin-left: 2%;
-    color: #f5f5f5;
+    margin-right: 2%;
+}
+.FireDragonSeite p::first-letter{
+    font-size: 5em;
+    float: left;
+    padding-right: 2%;
+    font-family: 'Ringbearer', Arial;
+    color: #ffeeb3;
+    text-shadow: 0 0 0.6em orange;
 }
 #divbutton{
     display: flex;
     justify-content: center;
     margin-top: 2%;
     margin-bottom: 2%;
+    padding-right: 2%;
 }
 button{
     cursor: pointer;
@@ -216,6 +238,9 @@ button{
     width: 3em;
     margin: 1em;
 }
+#X{
+    margin-top: 0.25em;
+}
 .footercontainer ul{
     color: #ffeeb3;
     text-align: center;
@@ -236,7 +261,7 @@ button{
     text-decoration: none;
 }
 .footercontainer a:visited{
-    color: #aaa;
+    color: whitesmoke;
 }
 .footercontainer a:hover{
     color: tomato;

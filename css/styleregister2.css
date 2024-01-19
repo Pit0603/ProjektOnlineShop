@@ -19,7 +19,7 @@
 }
 html{
   font-family: 'Martel', Arial;
-  color: #aaa;
+  color: whitesmoke;
 }
 html hr{
   border-color: #ffeeb3;
@@ -102,7 +102,7 @@ main h2{
   
 }
 main p{
-  color: #aaa;
+  color: whitesmoke;
 }
 #H2HotDragons{
   color: #f5f5f5;
@@ -229,7 +229,7 @@ section{
   text-decoration: none;
 }
 .footercontainer a:visited{
-  color: #aaa;
+  color: whitesmoke;
 }
 .footercontainer a:hover{
   color: tomato;

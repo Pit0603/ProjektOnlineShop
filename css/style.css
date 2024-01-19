@@ -19,7 +19,7 @@
 }
 html{
     font-family: 'Martel', Arial;
-    color: #aaa;
+    color: whitesmoke;
 }
 html hr{
     border-color: #ffeeb3;
@@ -320,7 +320,7 @@ button{
     text-decoration: none;
 }
 .footercontainer a:visited{
-    color: #aaa;
+    color: whitesmoke;
 }
 .footercontainer a:hover{
     color: tomato;

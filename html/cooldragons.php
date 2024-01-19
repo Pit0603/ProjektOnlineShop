@@ -31,17 +31,19 @@
                     <a href="IceDragon.php"
                         target="_self"
                         title="IceDragonEgg">
-                        <img src= "../Bilder/IceDragonEgg.png"
+                        <img id="imgIceDragon" src= "../Bilder/IceDragonEgg.png"
                         alt="This is a picture of an Ice-Dragon Egg"
                         height="200">
                         </a>
-                    <div>
+                    <div id="divIce">
                         <a href="IceDragon.php"
                         target="_self"
                         title="IceDragonEgg">
-                        <h3>IceDragon Egg</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
-                             aliquid illo deleniti facere, tempore fugit aliquam dolor voluptates veritatis architecto unde! Maxime, distinctio.</p>
+                        <h2>IceDragon Egg</h2>
+                        <p>Die Kombination aus der Kühle des Eises und der Wärme der Umgebung schafft eine faszinierende Atmosphäre,
+                             die jeden in ihren Bann zieht. Ein Eisdrache ist nicht nur ein Kunstwerk,
+                              sondern auch ein Symbol für Stärke und Macht. Es ist ein perfektes Geschenk für jeden,
+                               der das Besondere liebt.</p>
                         </a>
                     </div>
                 </div>
@@ -52,17 +54,19 @@
                     <a href="WaterDragon.php"
                         target="_self"
                         title="WaterDragonEgg">
-                        <img src= "../Bilder/WaterDragonEgg.png"
+                        <img id="imgWaterDragon" src= "../Bilder/WaterDragonEgg.png"
                         alt="This is a picture of an Water-Dragon Egg"
                         height="200">
                         </a>
-                    <div>
+                    <div id="divWater">
                         <a href="WaterDragon.php"
                         target="_self"
                         title="WaterDragonEgg">
-                        <h3>WaterDragon Egg</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
-                             aliquid illo deleniti facere, tempore fugit aliquam dolor voluptates veritatis architecto unde! Maxime, distinctio.</p>
+                        <h2>WaterDragon Egg</h2>
+                        <p>Die Kombination aus der Kühle des Wassers und der Wärme der Umgebung schafft eine faszinierende Atmosphäre,
+                             die jeden in ihren Bann zieht. Ein Drache mit der Macht des Wassers ist nicht nur ein Kunstwerk,
+                              sondern auch ein Symbol für Stärke und Macht. Es ist ein perfektes Geschenk für jeden,
+                               der das Besondere liebt.</p>
                         </a>
                     </div>
                 </div>

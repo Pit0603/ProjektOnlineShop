@@ -24,7 +24,7 @@
                     Corvin Zumpe, Mohamed Widadi und Pit Dahlem<br>
                     54296 Trier<br>
                     Deutschland<br>
-                    E-Mail: beispiel@gmail.com<br>
+                    E-Mail: <a href="mailto:inhaber@dragonemporium.com">inhaber@dragonemporium.com</a><br>
                     Tel.: 0123 4567<br>
                     </p>
                 <p><br>
@@ -44,8 +44,8 @@
                 </p><br>
                     <p>
                     IBAN: DE123456789<br>
-                    SWIFT: ABCDEF<br>
-                    Bank: Bank
+                    SWIFT: Bravos<br>
+                    Bank: Eiserne Bank
                     </p>
                 <p><br>
                     <b tabindex = "0">EU-Streitschlichtung</b>

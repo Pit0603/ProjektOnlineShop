@@ -14,7 +14,7 @@
 }
 html{
     font-family: 'Martel', Arial;
-    color: #aaa;
+    color: whitesmoke;
 }
 html hr{
     border-color: #ffeeb3;
@@ -78,7 +78,7 @@ main{
 .MakeOffer{
     position: relative;
     width: 400px;
-    height: 450px;
+    height: 500px;
     background: transparent;
     border: none;
     border-radius: 20px;
@@ -107,11 +107,14 @@ main{
    
  
   .MakeOffer textarea{
+    margin-top: 1em;
+    justify-content: center;
     width: 100%;
     border-width: 3px;
     border-color: #ffeeb3;
   }
   .MakeOffer .btn{
+    margin-top: 1em;
     width: 60%;
     height: 45px;
     background: #fff;
@@ -174,7 +177,7 @@ main{
     text-decoration: none;
 }
 .footercontainer a:visited{
-    color: #aaa;
+    color: whitesmoke;
 }
 .footercontainer a:hover{
     color: tomato;

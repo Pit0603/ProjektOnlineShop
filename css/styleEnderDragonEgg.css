@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Ringbearer';
     src: url(../Fonts/RINGM___.TTF);
@@ -5,6 +6,14 @@
 @font-face {
     font-family: 'Martel';
     src: url(../Fonts/Martel-Regular.ttf);
+}
+@font-face{
+    font-family: 'MinecraftTitle';
+    src: url(../Fonts/MinecraftTen-VGORe.ttf);
+}
+@font-face{
+    font-family: 'Minecraft';
+    src: url(../Fonts/MinecraftRegular-Bmg3.otf);
 }
 *{
     box-sizing: border-box;
@@ -14,7 +23,7 @@
 }
 html{
     font-family: 'Martel', Arial;
-    color: #aaa;
+    color: whitesmoke;
 }
 html hr{
     border-color: #ffeeb3;
@@ -85,7 +94,7 @@ main{
     margin-right: 5%;
     z-index: 1;
 }
-main a{
+/*main a{
     height: auto;
     color: #ffeeb3;
     text-shadow: 0 0 0.6em orange;
@@ -98,7 +107,7 @@ main a:hover{
 }
 main a:active{
     color: red;
-}
+}*/
 main h1{
     font-family: 'Martel', Arial;
     color: #ffeeb3;
@@ -113,32 +122,53 @@ main h2{
     z-index: 2;
     margin-bottom: 2%;
 }
-.EnderDragonSeite{
+/*main p{
+    color: #ffeeb3;
+}*/
+.FireDragonSeite{
     display: flex;
     margin-top: 5%;
 }
-.EnderDragonSeite img{
+.FireDragonSeite img{
     float: left;
 }
-.EnderDragonSeite h1{
+.FireDragonSeite div{
+    padding-top: 1em;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.FireDragonSeite h1{
+    padding-bottom: 1%;
+    white-space: nowrap;
     margin: auto;
     width: 450px;
     text-align: center;
-    color: #f5f5f5;
-    text-shadow: 0px -2px 4px #fff,
-                 0px -2px 10px #FF3,
-                 0px -10px 20px #F90,
-                 0px -20px 40px #C33;
+    font-family: 'MinecraftTitle', Arial;
+    color: gray;
+    text-shadow: 3px 3px #3F3F3F;
 }
-.EnderDragonSeite p{
+.FireDragonSeite p{
+    font-family: 'Minecraft', Arial;
+    font-size: large;
+    text-shadow: 3px 3px #3F3F3F;
     margin: auto;
     margin-left: 2%;
+    margin-right: 2%;
+}
+.FireDragonSeite p::first-letter{
+    font-size: 5em;
+    float: left;
+    padding-right: 1%;
+    font-family: 'MinecraftTitle', Arial;
+    color: gray;
+    text-shadow: 3px 3px #3F3F3F;
 }
 #divbutton{
     display: flex;
     justify-content: center;
     margin-top: 2%;
     margin-bottom: 2%;
+    padding-right: 2%;
 }
 button{
     cursor: pointer;
@@ -215,6 +245,9 @@ button{
     width: 3em;
     margin: 1em;
 }
+#X{
+    margin-top: 0.25em;
+}
 .footercontainer ul{
     color: #ffeeb3;
     text-align: center;
@@ -235,7 +268,7 @@ button{
     text-decoration: none;
 }
 .footercontainer a:visited{
-    color: #aaa;
+    color: whitesmoke;
 }
 .footercontainer a:hover{
     color: tomato;

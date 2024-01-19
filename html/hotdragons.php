@@ -16,16 +16,15 @@
 
         <video autoplay muted loop>
             <source src="../Video/Sparks.mp4" type="video/mp4">
-            <!-- Füge hier weitere Source-Tags hinzu, um unterschiedliche Videoformate zu unterstützen -->
             Dein Browser unterstützt das Video-Tag nicht.
         </video>
 
     <main>
 
-        <div class="containerProdukte"> <!-- @todo: article tag -->
+        <div class="containerProdukte"> 
             <h1>Hot Dragons</h1>
         
-            <div class="mainBox"> <!-- @todo: section tag -->
+            <div class="mainBox">
                 <div class="mainBoxChild">
                     <a href="FireDragon.php"
                         target="_self"
@@ -35,12 +34,14 @@
                         height="200">
                         </a>
                     <div>
-                        <a href="FireDragon.php"
+                        <a id="divFire" href="FireDragon.php"
                         target="_self"
                         title="FireDragonEgg">
-                        <h3>FireDragon Egg</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
-                             aliquid illo deleniti facere, tempore fugit aliquam dolor voluptates veritatis architecto unde! Maxime, distinctio.</p>
+                        <h2>FireDragon Egg</h2>
+                        <p>Erleben Sie die Hitze mit unseren brandneuen Feuerdrachen, die Ihnen den Atem rauben werden!
+                             Unsere Drachen sind aus hochwertigen Materialien gefertigt und bieten eine hervorragende Wärme an kalten Tagen.
+                              Mit einer Vielzahl von Farben und Designs zur Auswahl, ist für jeden Geschmack etwas dabei.
+                               Bestellen Sie jetzt und erhalten Sie 10% Rabatt auf Ihre erste Bestellung!</p>
                         </a>
                     </div>
                 </div>
@@ -56,12 +57,14 @@
                         height="200">
                         </a>
                     <div>
-                        <a href="LavaDragon.php"
+                        <a id="divLava" href="LavaDragon.php"
                         target="_self"
                         title="LavaDragonEgg">
-                        <h3>LavaDragon Egg</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
-                             aliquid illo deleniti facere, tempore fugit aliquam dolor voluptates veritatis architecto unde! Maxime, distinctio.</p>
+                        <h2>LavaDragon Egg</h2>
+                        <p>Erleben Sie die Hitze mit unseren brandneuen Lavadrachen, die Ihnen den Atem rauben werden!
+                             Unsere Drachen sind aus hochwertigen Materialien gefertigt und bieten eine hervorragende Wärme an kalten Tagen.
+                              Mit einer Vielzahl von Farben und Designs zur Auswahl, ist für jeden Geschmack etwas dabei.
+                               Bestellen Sie jetzt und erhalten Sie 10% Rabatt auf Ihre erste Bestellung!</p>
                         </a>
                     </div>
                 </div>
@@ -77,12 +80,16 @@
                         height="200">
                         </a>
                     <div>
-                        <a href="SunDragon.php"
+                        <a id="divSun" href="SunDragon.php"
                         target="_self"
                         title="SunDragonEgg">
-                        <h3>SunDragon Egg</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
-                             aliquid illo deleniti facere, tempore fugit aliquam dolor voluptates veritatis architecto unde! Maxime, distinctio.</p>
+                        <h2>SunDragon Egg</h2>
+                        <p>Erleben Sie den Sommer auf eine neue Art und Weise mit unserem Sonnendrachen!
+                             Der Drachen ist aus hochwertigen Materialien hergestellt und verfügt über einzigartige Designs,
+                              die ihn von anderen Drachen abheben. Mit seinen leuchtenden Farben und der Fähigkeit,
+                               in der Luft zu schweben, ist unser Sonnendrachen ein wahrer Hingucker am Himmel. Egal,
+                                ob Sie ihn alleine oder mit Freunden fliegen lassen, unser Sonnendrachen wird Ihnen ein unvergessliches Erlebnis bescheren.
+                                 Bestellen Sie jetzt und genießen Sie den Sommer in vollen Zügen!</p>
                         </a>
                     </div>
                 </div>

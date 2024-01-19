@@ -15,7 +15,7 @@
 }
 html{
     font-family: 'Martel', Arial;
-    color: #aaa;
+    color: whitesmoke;
 }
 html hr{
     border-color: #ffeeb3;
@@ -100,7 +100,7 @@ main a :visited{
     color: #ffeeb3;
 }
 main dl{
-    color: #aaa;
+    color: whitesmoke;
 }
 main dt{
     color: #ffeeb3;
@@ -108,7 +108,7 @@ main dt{
     margin-bottom: 10px;
 }
 main dd{
-    color: #aaa;
+    color: whitesmoke;
 }
 .footercontainer{
     background-color: black;
@@ -157,7 +157,7 @@ main dd{
     text-decoration: none;
 }
 .footercontainer a:visited{
-    color: #aaa;
+    color: whitesmoke;
 }
 .footercontainer a:hover{
     color: tomato;

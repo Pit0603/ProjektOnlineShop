@@ -68,7 +68,7 @@
                     <a href="hotdragons.php"
                         target="_self" 
                         tabindex="-1"
-                        title="Hot Dragons">
+                        title="Hier kommen Sie zur Kategorie Hot Dragons">
                         <img id="imgHotDragons" src= "../Bilder/HotDragonEggs.png"
                         alt="This is a picture of a Fire-Dragon Egg"
                         height="200">
@@ -77,10 +77,12 @@
                         <a href="hotdragons.php"
                         target="_self"
                         tabindex="-1"
-                        title="Hot Dragons">
+                        title="Hier kommen Sie zur Kategorie Hot Dragons">
                         <h2 id="H2HotDragons">Hot Dragons</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
-                             aliquid illo deleniti facere, tempore fugit aliquam dolor voluptates veritatis architecto unde! Maxime, distinctio.</p>
+                        <p>Erleben Sie die Faszination von Feuer-, Lava- und Sonnendrachen! Unsere Drachen sind nicht nur wunderschön anzusehen,
+                             sondern auch unglaublich lebendig. Mit ihren leuchtenden Farben und ihrem feurigen Atem werden sie Ihre Fantasie beflügeln.
+                              Ob als Geschenk für Ihre Liebsten oder als Dekoration für Ihr Zuhause, unsere Drachen sind einzigartig und unverwechselbar.
+                               Bestellen Sie noch heute und lassen Sie sich von der Magie unserer Drachen verzaubern!</p>
                         </a>
                     </div>
                 </div>
@@ -91,7 +93,7 @@
                     <a href="cooldragons.php"
                         target="_self"
                         tabindex="-1"
-                        title="Cool Dragons">
+                        title="Hier kommen Sie zur Kategorie Cool Dragons">
                         <img id="imgCoolDragons" src= "../Bilder/CoolDragonEggs.png"
                         alt="This is a picture of an Ice-Dragon Egg"
                         height="200">
@@ -100,10 +102,12 @@
                         <a href="cooldragons.php"
                         target="_self"
                         tabindex="-1"
-                        title="Cool Dragons">
+                        title="Hier kommen Sie zur Kategorie Cool Dragons">
                         <h2 id="H2CoolDragons">Cool Dragons</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
-                             aliquid illo deleniti facere, tempore fugit aliquam dolor voluptates veritatis architecto unde! Maxime, distinctio.</p>
+                        <p>Erleben Sie die Faszination von Eis- und Wasserdrachen! Unsere Drachen sind nicht nur wunderschön anzusehen,
+                             sondern auch unglaublich lebendig. Mit ihren kühlen Farben und ihrem erfrischenden Atem werden sie Ihre Fantasie beflügeln.
+                              Ob als Geschenk für Ihre Liebsten oder als Dekoration für Ihr Zuhause, unsere Drachen sind einzigartig und unverwechselbar.
+                               Bestellen Sie noch heute und lassen Sie sich von der Magie unserer Drachen verzaubern!</p>
                         </a>
                     </div>
                 </div>
@@ -114,7 +118,7 @@
                     <a href="miscellaneousdragons.php"
                         target="_self"
                         tabindex="-1"
-                        title="Miscellaneous Dragons">
+                        title="Hier kommen Sie zur Kategorie Miscellaneous Dragons">
                         <img id="imgMiscellaneousDragons" src= "../Bilder/MiscellaneousDragonEggs.png"
                         alt="This is a picture of an Earth-Dragon Egg"
                         height="200">
@@ -123,10 +127,12 @@
                         <a href="miscellaneousdragons.php"
                         target="_self"
                         tabindex="-1"
-                        title="Miscellaneous Dragons">
+                        title="Hier kommen Sie zur Kategorie Miscellaneous Dragons">
                         <h2 id="H2MiscellaneousDragons">Miscellaneous Dragons</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
-                             aliquid illo deleniti facere, tempore fugit aliquam dolor voluptates veritatis architecto unde! Maxime, distinctio.</p>
+                        <p>Erleben Sie die Faszination von Galaxy-, Erde-, Stein-, und Enderdrachen! Unsere Drachen sind nicht nur wunderschön anzusehen,
+                             sondern auch unglaublich lebendig. Mit ihren einzigartigen Farben und ihrem atemberaubenden Atem werden sie Ihre Fantasie beflügeln.
+                              Ob als Geschenk für Ihre Liebsten oder als Dekoration für Ihr Zuhause, unsere Drachen sind einzigartig und unverwechselbar.
+                               Bestellen Sie noch heute und lassen Sie sich von der Magie unserer Drachen verzaubern!</p>
                         </a>
                     </div>
                 </div>

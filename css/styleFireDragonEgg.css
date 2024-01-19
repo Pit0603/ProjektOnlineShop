@@ -15,7 +15,7 @@
 }
 html{
     font-family: 'Martel', Arial;
-    color: #aaa;
+    color: whitesmoke;
 }
 html hr{
     border-color: #ffeeb3;
@@ -124,6 +124,11 @@ main p{
 .FireDragonSeite img{
     float: left;
 }
+.FireDragonSeite div{
+    padding-top: 1em;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.8);
+}
 .FireDragonSeite h1{
     margin: auto;
     width: 450px;
@@ -135,14 +140,26 @@ main p{
                  0px -20px 40px #C33;
 }
 .FireDragonSeite p{
+    font-style: italic;
+    color: whitesmoke;
     margin: auto;
     margin-left: 2%;
+    margin-right: 2%;
+}
+.FireDragonSeite p::first-letter{
+    font-size: 5em;
+    float: left;
+    padding-right: 2%;
+    font-family: 'Ringbearer', Arial;
+    color: #ffeeb3;
+    text-shadow: 0 0 0.6em orange;
 }
 #divbutton{
     display: flex;
     justify-content: center;
     margin-top: 2%;
     margin-bottom: 2%;
+    padding-right: 2%;
 }
 button{
     cursor: pointer;
@@ -242,7 +259,7 @@ button{
     text-decoration: none;
 }
 .footercontainer a:visited{
-    color: #aaa;
+    color: whitesmoke;
 }
 .footercontainer a:hover{
     color: tomato;

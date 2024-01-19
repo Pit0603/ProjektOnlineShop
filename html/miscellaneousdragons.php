@@ -37,12 +37,15 @@
                         height="200">
                         </a>
                     <div>
-                        <a href="GalaxyDragon.php"
+                        <a id="divGalaxy" href="GalaxyDragon.php"
                         target="_self"
                         title="GalaxyDragonEgg">
-                        <h3>GalaxyDragon Egg</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
-                             aliquid illo deleniti facere, tempore fugit aliquam dolor voluptates veritatis architecto unde! Maxime, distinctio.</p>
+                        <h2>GalaxyDragon Egg</h2>
+                        <p>Erleben Sie das Misteriöse mit unseren brandneuen Galaxydrachen,
+                             die Ihnen den Atem rauben werden!
+                              Unsere Drachen sind aus hochwertigen Materialien gefertigt und bieten eine hervorragende Wärme an kalten Tagen.
+                              Mit einer Vielzahl von Farben und Designs zur Auswahl, ist für jeden Geschmack etwas dabei.
+                               Bestellen Sie jetzt und erhalten Sie 10% Rabatt auf Ihre erste Bestellung!</p>
                         </a>
                     </div>
                 </div>
@@ -58,12 +61,14 @@
                         height="200">
                         </a>
                     <div>
-                        <a href="EarthDragon.php"
+                        <a id="divEarth" href="EarthDragon.php"
                         target="_self"
                         title="EarthDragon">
-                        <h3>EarthDragon Egg</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
-                             aliquid illo deleniti facere, tempore fugit aliquam dolor voluptates veritatis architecto unde! Maxime, distinctio.</p>
+                        <h2>EarthDragon Egg</h2>
+                        <p>Erleben Sie das Misteriöse mit unseren brandneuen Erddrachen,
+                             die Ihnen den Atem rauben werden! Unsere Drachen sind aus hochwertigen Materialien gefertigt und bieten eine hervorragende Wärme an kalten Tagen.
+                              Mit einer Vielzahl von Farben und Designs zur Auswahl,
+                               ist für jeden Geschmack etwas dabei. Bestellen Sie jetzt und erhalten Sie 10% Rabatt auf Ihre erste Bestellung!</p>
                         </a>
                     </div>
                 </div>
@@ -79,12 +84,14 @@
                         height="200">
                         </a>
                     <div>
-                        <a href="StoneDragon.php"
+                        <a id="divStone" href="StoneDragon.php"
                         target="_self"
                         title="StoneDragonEgg">
-                        <h3>StoneDragon Egg</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
-                             aliquid illo deleniti facere, tempore fugit aliquam dolor voluptates veritatis architecto unde! Maxime, distinctio.</p>
+                        <h2>StoneDragon Egg</h2>
+                        <p>Erleben Sie das Misteriöse mit unseren brandneuen Steindrachen,
+                             die Ihnen den Atem rauben werden! Unsere Drachen sind aus hochwertigen Materialien gefertigt und bieten eine hervorragende Wärme an kalten Tagen.
+                              Mit einer Vielzahl von Farben und Designs zur Auswahl, ist für jeden Geschmack etwas dabei.
+                               Bestellen Sie jetzt und erhalten Sie 10% Rabatt auf Ihre erste Bestellung!</p>
                         </a>
                     </div>
                 </div>
@@ -100,12 +107,12 @@
                         height="200">
                         </a>
                     <div>
-                        <a href="EnderDragon.php"
+                        <a id="divEnder" href="EnderDragon.php"
                         target="_self"
                         title="EnderDragonEgg">
-                        <h3>EnderDragon Egg</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore nemo impedit sed vel doloribus nesciunt,
-                             aliquid illo deleniti facere, tempore fugit aliquam dolor voluptates veritatis architecto unde! Maxime, distinctio.</p>
+                        <h2>EnderDragon Egg</h2>
+                        <p>Der Enderdrache ist einer der mächtigsten Gegner in der Welt von Minecraft.
+                             Er zählt (wie der Wither) zu den Bossmonstern und lebt im Ende, das man nur durch ein Enderportal erreichen kann.</p>
                         </a>
                     </div>
                 </div>
