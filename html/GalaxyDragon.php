@@ -15,7 +15,7 @@
     <body>
 
     <video autoplay muted loop>
-            <source src="../Video/GalaxyBackground.mp4" type="video/mp4" alt="This is a backround video">
+            <source src="../Video/GalaxyBackground.mp4" type="video/mp4">
             Dein Browser unterstützt das Video-Tag nicht.
     </video>
         
@@ -49,15 +49,15 @@
                           Bestellen Sie jetzt und erhalten Sie 10% Rabatt auf Ihre erste Bestellung!</p>
                 </div>
             </div>
-<div id="divbutton">
-                <a href="MakeOffer.php">
-                    <button class="fantasy" tabindex="-1">
-                    <span class="double">
-                     <span class="text">Angebot machen</span>
-                    </span>
-                   </button>
-                </a>
-            </div>
+            <div id="divbutton">
+                <form action="MakeOffer.php">
+                    <button type="submit" class="fantasy">
+                        <span class="double">
+                            <span class="text">Angebot machen</span>
+                        </span>
+                    </button>
+                </form>
+            </div>    
     </main>
         
     </body>

@@ -14,7 +14,7 @@
 
     <body>
         
-    <video autoplay loop muted plays-inline class="background-clip">
+    <video autoplay loop muted class="background-clip">
             <source src="../Video/Background2.mp4" type="video/mp4">
           </video>
     <main>
@@ -70,7 +70,7 @@
 
             <br>
             <label for="price" style="color: aliceblue;">Angebotspreis: </label>
-            <input type="price" id="price" placeholder="min. 10.000€">
+            <input type="number" id="price" placeholder="min. 10.000€">
             
       
            

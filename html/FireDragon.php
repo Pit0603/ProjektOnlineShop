@@ -55,14 +55,14 @@
             </div>
 
             <div id="divbutton">
-                <a href="MakeOffer.php">
-                    <button class="fantasy" tabindex="-1">
-                    <span class="double">
-                     <span class="text">Angebot machen</span>
-                    </span>
-                   </button>
-                </a>
-            </div>
+                <form action="MakeOffer.php">
+                    <button type="submit" class="fantasy">
+                        <span class="double">
+                            <span class="text">Angebot machen</span>
+                        </span>
+                    </button>
+                </form>
+            </div>    
             
        
     </main>

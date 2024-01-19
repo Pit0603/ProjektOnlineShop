@@ -68,7 +68,7 @@
                         target="_self" 
                         tabindex="0"
                         title="Hier kommen Sie zur Kategorie Hot Dragons">
-                    <div class="mainBoxChild" tabindex="-1">
+                    <div class="mainBoxChild">
                         <img id="imgHotDragons" src= "../Bilder/HotDragonEggs.png"
                         alt="This is a picture of a Fire-Dragon Egg"
                         height="200">
@@ -89,7 +89,7 @@
                         target="_self"
                         tabindex="0"
                         title="Hier kommen Sie zur Kategorie Cool Dragons">
-                            <div class="mainBoxChild" tabindex="-1">
+                            <div class="mainBoxChild">
 
                             <img id="imgCoolDragons" src= "../Bilder/CoolDragonEggs.png"
                             alt="This is a picture of an Ice-Dragon Egg"
@@ -111,7 +111,7 @@
                         target="_self"
                         tabindex="0"
                         title="Hier kommen Sie zur Kategorie Miscellaneous Dragons">
-                        <div class="mainBoxChild" tabindex="-1">
+                        <div class="mainBoxChild">
                             <img id="imgMiscellaneousDragons" src= "../Bilder/MiscellaneousDragonEggs.png"
                             alt="This is a picture of an Earth-Dragon Egg"
                             height="200">

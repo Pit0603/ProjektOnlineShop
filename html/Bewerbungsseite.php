@@ -13,7 +13,7 @@
 
     <body>
 
-        <video autoplay muted loop alt="This is a backround video">
+        <video autoplay muted loop>
             <source src="../Video/Background2.mp4" type="video/mp4">
             Dein Browser unterstützt das Video-Tag nicht.
         </video>

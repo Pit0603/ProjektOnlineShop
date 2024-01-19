@@ -13,7 +13,7 @@
 
     <body>
         
-        <video autoplay loop muted plays-inline class="background-clip">
+        <video autoplay loop muted class="background-clip">
             <source src="../Video/Background2.mp4" type="video/mp4">
           </video>
 

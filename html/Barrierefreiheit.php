@@ -48,10 +48,7 @@
     <p><strong>Feedback und Kontakt</strong></p>
     <p>Sollten Ihnen Mängel in Bezug auf die barrierefreie Gestaltung unserer Webseite auffallen, können Sie uns gerne per E-Mail kontaktieren: <a href="mailto:webteam@dragonemporium.com">webteam@dragonemporium.com</a>.</p>
 </main>
-
-    
-        </main>
-            
+                
         </body>
     <?php
     include("footer.html");
