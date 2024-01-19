@@ -49,12 +49,14 @@
                           Bestellen Sie jetzt und erhalten Sie 10% Rabatt auf Ihre erste Bestellung!</p>
                 </div>
             </div>
-            <div id="divbutton">
-                <button class="fantasy">
+<div id="divbutton">
+                <a href="MakeOffer.php">
+                    <button class="fantasy" tabindex="-1">
                     <span class="double">
                      <span class="text">Angebot machen</span>
                     </span>
                    </button>
+                </a>
             </div>
     </main>
         
