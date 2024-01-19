@@ -27,49 +27,45 @@
             <h1>Cool Dragons</h1>
         
             <div class="mainBox">
-                <div class="mainBoxChild">
                     <a href="IceDragon.php"
                         target="_self"
+                        tabindex="0"
                         title="IceDragonEgg">
+                        <div class="mainBoxChild">
                         <img id="imgIceDragon" src= "../Bilder/IceDragonEgg.png"
                         alt="This is a picture of an Ice-Dragon Egg"
                         height="200">
-                        </a>
                     <div id="divIce">
-                        <a href="IceDragon.php"
-                        target="_self"
-                        title="IceDragonEgg">
                         <h2>IceDragon Egg</h2>
                         <p>Die Kombination aus der Kühle des Eises und der Wärme der Umgebung schafft eine faszinierende Atmosphäre,
                              die jeden in ihren Bann zieht. Ein Eisdrache ist nicht nur ein Kunstwerk,
                               sondern auch ein Symbol für Stärke und Macht. Es ist ein perfektes Geschenk für jeden,
                                der das Besondere liebt.</p>
-                        </a>
                     </div>
                 </div>
+                    </a>
+
             </div>
             
             <div class="mainBox">
-                <div class="mainBoxChild">
                     <a href="WaterDragon.php"
                         target="_self"
+                        tabindex="0"
                         title="WaterDragonEgg">
+                        <div class="mainBoxChild">
                         <img id="imgWaterDragon" src= "../Bilder/WaterDragonEgg.png"
                         alt="This is a picture of an Water-Dragon Egg"
                         height="200">
-                        </a>
                     <div id="divWater">
-                        <a href="WaterDragon.php"
-                        target="_self"
-                        title="WaterDragonEgg">
                         <h2>WaterDragon Egg</h2>
                         <p>Die Kombination aus der Kühle des Wassers und der Wärme der Umgebung schafft eine faszinierende Atmosphäre,
                              die jeden in ihren Bann zieht. Ein Drache mit der Macht des Wassers ist nicht nur ein Kunstwerk,
                               sondern auch ein Symbol für Stärke und Macht. Es ist ein perfektes Geschenk für jeden,
                                der das Besondere liebt.</p>
-                        </a>
                     </div>
                 </div>
+                    </a>
+
             </div>
         </div>
 
