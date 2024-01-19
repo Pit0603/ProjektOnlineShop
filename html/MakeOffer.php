@@ -82,7 +82,7 @@
             <textarea id="makeOffer" rows="3" cols="25" placeholder="Seien Sie gegrüßt, ich hätte Interesse an einem Ihrer Dracheneier. Hochachtungsvoll Ihr Kunde"></textarea>
       
         
-            <button type="submit" class="btn">Senden</button>
+            <button type="submit" class="btn" title="Angebot Absenden">Senden</button>
         </form>
     </div>
         </main>
