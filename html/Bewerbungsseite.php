@@ -1,17 +1,7 @@
 <?php
     include("header.html");
 ?>
-<!DOCTYPE html>
-<html lang="de">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="../Icons/DragonIcon.png">
-        <title>Dragon Egg Emporium</title>
-        <link rel="stylesheet" href="../css/styleBewerbungsseite.css">
-    </head>
-
-    <body>
+      <link rel="stylesheet" href="../css/styleBewerbungsseite.css">
 
         <video autoplay muted loop>
             <source src="../Video/Background2.mp4" type="video/mp4">
@@ -73,9 +63,6 @@
 
       </main>
          
-    </body>
-
-</html>
 <?php
     include("footer.html");
 ?>
