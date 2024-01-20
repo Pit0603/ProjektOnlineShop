@@ -1,7 +1,7 @@
 <?php
     include("header.html");
 ?>
-    <link rel="stylesheet" href="../css/styleHotDragons.css">
+    <link rel="stylesheet" href="../css/styleMiscellaneousDragons.css">
 
         <video autoplay muted loop>
             <source src="../Video/Miscellaneous.mp4" type="video/mp4">
@@ -24,7 +24,7 @@
                         <img id="imgGalaxyDragonEgg" src= "../Bilder/GalaxyDragonEgg.png"
                         alt="This is a picture of a Galaxy-Dragon Egg"
                         height="200">
-                    <div>
+                    <div id="divGalaxy">
                         <h2>GalaxyDragon Egg</h2>
                         <p>Erleben Sie das Misteriöse mit unseren brandneuen Galaxydrachen,
                              die Ihnen den Atem rauben werden!
@@ -47,7 +47,7 @@
                         <img id="imgEarthDragonEgg" src= "../Bilder/EarthDragonEgg.png"
                         alt="This is a picture of a Earth-Dragon Egg"
                         height="200">
-                    <div>
+                    <div id="divEarth">
                         <h2>EarthDragon Egg</h2>
                         <p>Erleben Sie das Misteriöse mit unseren brandneuen Erddrachen,
                              die Ihnen den Atem rauben werden! Unsere Drachen sind aus hochwertigen Materialien gefertigt und bieten eine hervorragende Wärme an kalten Tagen.
@@ -69,7 +69,7 @@
                         <img id="imgStoneDragonEgg" src= "../Bilder/StoneDragonEgg.png"
                         alt="This is a picture of a Stone-Dragon Egg"
                         height="200">
-                    <div>
+                    <div id="divStone">
                         <h2>StoneDragon Egg</h2>
                         <p>Erleben Sie das Misteriöse mit unseren brandneuen Steindrachen,
                              die Ihnen den Atem rauben werden! Unsere Drachen sind aus hochwertigen Materialien gefertigt und bieten eine hervorragende Wärme an kalten Tagen.
@@ -90,7 +90,7 @@
                         <img id="imgEnderDragonEgg" src= "../Bilder/EnderDragonEgg.png"
                         alt="This is a picture of a Ender-Dragon Egg"
                         height="200">
-                    <div>
+                    <div id="divEnder">
                         <h2>EnderDragon Egg</h2>
                         <p>Der Enderdrache ist einer der mächtigsten Gegner in der Welt von Minecraft.
                              Er zählt (wie der Wither) zu den Bossmonstern und lebt im Ende, das man nur durch ein Enderportal erreichen kann.</p>

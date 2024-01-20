@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: 'Ringbearer';
   src: url(../Fonts/RINGM___.TTF);
@@ -11,149 +12,309 @@
   src: url(../Fonts/Frozen.ttf);
 }
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
-  html hr{
-    border-color: #ffeeb3;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
-  .divheader{
-    position: fixed;
-    z-index: 2;
-    width: 100%;
+html{
+  font-family: 'Martel', Arial;
+  color: whitesmoke;
 }
-.headercontainer{
+html hr{
+  border-color: #ffeeb3;
+}
+body{
+  background-color:black;
+  font-family: 'Martel', Arial;
+  font-size: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+header{
   font-family: 'Ringbearer', Arial;
   color: #ffeeb3;
-  display: flex;
-  justify-content: space-between;
   width: 100%;
-  align-items: baseline;
   z-index: 2;
   background-color: black;
   text-decoration: none;
-  justify-content: center;
+  position: fixed;
 }
-.headercontainer a{
-  font-family: 'Ringbearer', Arial;
+header nav{
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+header a{
   text-decoration: none;
-   color: #ffeeb3;
+  color: #ffeeb3;
   text-shadow: 0 0 0.6em orange;
-    
 }
-.headercontainer label{
+header label{
   font-size: 4em;
+  margin-left: 5%;
   margin-top: 2%;
   margin-bottom: 2%;
   white-space: nowrap;
 }
-  /*.header{
-    background: transparent;
-    border: none;
-    border-radius: 20px;
-    position: fixed;
-    left: 10px;
-    right: 10;
-    bottom: 490px;
-    border: none;
-    width: 400px;
-    height: 90px;
-    }
-    .header h1{
-      font-family: fantasy;   
-       color: rgba(170, 48, 48, 0.869);
-        text-shadow: red 0px 0px 10px;
-        font-size: 35px;
-        margin-left: -10%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        
-    }*/
-    section{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background-size: cover;
-      background-position: center;
-      
-
-  }
-  .register{
-    position: relative;
-    width: 450px;
-    height: 700px;
-    background: transparent;
-    border: none;
-    border-radius: 20px;
-    backdrop-filter: blur(15px) brightness(80%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-  }
-  h1{
-    font-size: 36px;
-    text-align: center;
-    color: #fff;
-  }
-  .register .input-box{
-    position: relative;
-    width: 100%;
-    height: 50px;
+#Anmelden{
+  margin-right: 5%;
+}
+header h2{
+  color: #ffeeb3;
+  text-shadow: 0 0 0.6em orange;
+  font-size: 2em;
+}
+video{
+  position: fixed;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+main{
+  padding-top: 10em;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  z-index: 1;
+}
+main h1{
+  color: #ffeeb3;
+  text-shadow: 0 0 0.6em orange;
+  font-size: 4em;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  z-index: 1;
+}
+main h2{
+  font-family: 'Martel', Arial;
+  font-size: 2em;
+  z-index: 2;
+  margin-bottom: 2%;
   
-    margin: 30px 0;
-  }
-  .input-box input{
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 40px;
-    font-size: 16px;
-    color: #fff;
-    padding: 20px 45px 20px 20px;
-  }
-  .input-box input::placeholder{
-    color: #fff;
-  }
- 
+}
+main p{
+  color: whitesmoke;
+}
+#H2HotDragons{
+  color: #f5f5f5;
+  text-shadow: 0 -2px 4px #fff,
+               0 -2px 10px #FF3,
+               0 -10px 20px #F90,
+               0 -20px 40px #C33;
+}
+#H2CoolDragons{
+  font-family: 'Frozen', Arial;
+  color: lightblue;
+  text-shadow: 0 -0.125em 0.25em #fff,
+               0 -0.125em 0.625em lightblue,
+               0 -0.625em 1.25em blue,
+               0 -1.25em 2.5em darkblue;
+}
+#H2MiscellaneousDragons{
+  color: lightgrey;
+  text-shadow: 0 -0.125em 0.25em #fff,
+               0 -0.125em 0.625em lightgrey,
+               0 -0.625em 1.25em grey,
+               0 -1.25em 2.5em dimgray;
+}
+article{
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+section{
+  /*position: relative;*/
+  z-index: 1;
+  margin-bottom: 2em;
+}
+.mainBoxChild{
+  display: flex;
+  height: 12.5em;
+  width: 100%;
+  align-items:normal;
+  height: auto;
+}
+.mainBox a{
+  height:fit-content;
+  width: fit-content;
+}
+.mainBox a{
+  height:fit-content;
+  width: fit-content;
+}
+.mainBox img{
+  display: flex;
+  border-style: ridge;
+  border-color: grey;
+  border-width: 0.313em;
+}
+#imgHotDragons{
+  border-style: ridge;
+  border-color: #ffeeb3;
+  border-width: 0.313em;
+}
+#imgCoolDragons{
+  border-style: ridge;
+  border-color: lightblue;
+  border-width: 0.313em;
+}
+#imgMiscellaneousDragons{
+  border-style: ridge;
+  border-color: lightgrey;
+  border-width: 0.313em;
+}
+.mainBoxChild div{
+  margin-left: 1%;
+  padding: 2%;
+  background-color: black;
+  backdrop-filter: blur(1em);
+  border-radius: 1em;
+}
+.footercontainer{
+  background-color: black;
+  text-decoration: none;
+  z-index: 2;
+  text-align: center;
+  position: sticky;
+  top: 100%;
+}
+.footercontainer h2{
+  color: #ffeeb3;
+  text-shadow: 0 0 0.6em orange;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.footercontainer div{
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+.footercontainer div a{
+  height: 3em;
+  width: 3em;
+  margin: 1em;
+}
+#X{
+  margin-top: 0.25em;
+}
+.footercontainer ul{
+  color: #ffeeb3;
+  text-align: center;
+  list-style-type: none;
+  padding: 0%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+.footercontainer p{
+  color: #ffeeb3;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.footercontainer a{
+  color: #ffeeb3;
+  text-decoration: none;
+}
+.footercontainer a:visited{
+  color: whitesmoke;
+}
+.footercontainer a:hover{
+  color: tomato;
+}
+.footercontainer a:active{
+  color: red;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
 
-  .submit{
-    width: 100%;
-    height: 45px;
-    background: #fff;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 0.6em rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-size: 16px;
-    color: #333;
-    font-weight: 600;
-  }
+}
+.register{
+position: relative;
+width: 450px;
+height: 700px;
+background: transparent;
+border: none;
+border-radius: 20px;
+backdrop-filter: blur(15px) brightness(80%);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10%;
+}
+h1{
+font-size: 36px;
+text-align: center;
+color: #fff;
+}
+.register .input-box{
+position: relative;
+width: 100%;
+height: 50px;
 
-  .background-clip{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
+margin: 30px 0;
+}
+.input-box input{
+width: 100%;
+height: 100%;
+background: transparent;
+border: none;
+outline: none;
+border: 2px solid rgba(255, 255, 255, .2);
+border-radius: 40px;
+font-size: 16px;
+color: #fff;
+padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+color: #fff;
 }
 
+
+.submit{
+width: 100%;
+height: 45px;
+background: #fff;
+border: none;
+outline: none;
+border-radius: 40px;
+box-shadow: 0 0 0.6em rgba(0, 0, 0, .1);
+cursor: pointer;
+font-size: 16px;
+color: #333;
+font-weight: 600;
+}
+
+
+
 @media (min-aspect-ratio:16/9) {
-    .background-clip{
-        width: 100%;
-        height: auto;
-    }
+.background-clip{
+    width: 100%;
+    height: auto;
+}
 }
 
 @media (max-aspect-ratio:16/9) {
-    .background-clip{
-        width: auto;
-        height: 100%;
-    }
-  }
+.background-clip{
+    width: auto;
+    height: 100%;
+}
+}

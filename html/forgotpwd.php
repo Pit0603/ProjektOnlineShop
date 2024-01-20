@@ -1,30 +1,8 @@
 <?php
     include("header.html");
 ?>
-<!DOCTYPE html>
-<html lang="de">
-    <head>
-        <meta charset='UTF-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <title>Passwort zurücksetzen</title>
-        <link rel="icon" type="image/png" href="Bilder/favicon.png">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <link rel='stylesheet' href='../css/styleforgotpwd.css'>
-    </head>
-    
-<body>
 
-  <div class="divheader">
-    <header class="headercontainer">
-        <label>
-            <a href="index.php" target="_self" title="Hier kommen Sie zur Startseite" >
-                Dragon Egg Emporium
-            </a>
-        </label>
-      
-    </header>
-    <hr>
-</div>
+<link rel='stylesheet' href='../css/styleforgotpwd.css'>
 
   <video autoplay loop muted class="background-clip">
     <source src="../Video/Background2.mp4" type="video/mp4">
@@ -45,13 +23,12 @@
           </div>
         
         
-          <button type="submit">zurücksetzen</button>
+          <button type="submit" id="loginButton">Zurücksetzen</button>
           
         </form>
       </div>
     </section>      
-</body>
-</html>
+
 <?php
     include("footer.html");
 ?>
