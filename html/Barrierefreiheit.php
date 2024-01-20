@@ -1,19 +1,8 @@
 <?php
     include("header.html");
 ?>
-<!DOCTYPE html>
-<html lang="de">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="../Icons/DragonIcon.png">
-        <title>Dragon Egg Emporium</title>
-        <link rel="stylesheet" href="../css/stylefooter.css">
-        <script src="../JavaScript/login_script.js" defer></script>
-    </head>
-
-    <body>
-        
+      <link rel="stylesheet" href="../css/stylefooter.css">
+      
     <main>
     <h1>Barrierefreiheit</h1>
     <p><strong>Erklärung zur Barrierefreiheit</strong></p>
@@ -48,8 +37,7 @@
     <p><strong>Feedback und Kontakt</strong></p>
     <p>Sollten Ihnen Mängel in Bezug auf die barrierefreie Gestaltung unserer Webseite auffallen, können Sie uns gerne per E-Mail kontaktieren: <a href="mailto:webteam@dragonemporium.com">webteam@dragonemporium.com</a>.</p>
 </main>
-                
-        </body>
+        
     <?php
     include("footer.html");
 ?>
