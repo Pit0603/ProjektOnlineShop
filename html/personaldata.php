@@ -11,7 +11,7 @@
         
             <div class="bewerben">
   
-            <form action="Bewerbungsseite.html">
+            <form action="Bewerbungsseite.php">
                 <h1>Ihre persönlichen Daten</h1>
                 <h2>Bitte geben Sie die folgenden Daten ein, um den Bewerbungsprozess zu starten.</h2>
                 <div class="input-box">
