@@ -25,8 +25,6 @@
 
         <li><strong>Große Buttons:</strong> Die groß gestalteten Bedienelemente erleichtern die Navigation, insbesondere für Nutzer mit motorischen Einschränkungen.</li>
 
-        <li><strong>Bedienbarkeit mit der Tab-Taste:</strong> Die vollständige Navigierbarkeit der Webseite über die Tab-Taste verbessert die Zugänglichkeit für eine Vielzahl von Nutzern.</li>
-
         <li><strong>Verzicht auf zeitbeschränkte Pop-ups:</strong> Um die Nutzerfreundlichkeit zu maximieren, werden keine zeitkritischen Interaktionen wie zeitbeschränkte Pop-ups verwendet.</li>
 
         <li><strong>Wahrnehmbarkeit:</strong> Alle Bilder sind mit Alt-Texten ausgestattet, die eine alternative Beschreibung bieten, falls die Bilder nicht geladen werden können.</li>
